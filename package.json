@@ -19,7 +19,7 @@
     "start": "npm run build-sass -- --watch"
   },
   "author": "Asyraf Hussin (https://github.com/AsyrafHussin)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.7.6",
     "clean-css-cli": "^4.3.0",
