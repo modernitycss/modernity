@@ -10,7 +10,13 @@
   ],
   "homepage": "https://github.com/AsyrafHussin/modernity",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output css/modernity.css css/modernity.css",
+    "build-cleancss": "cleancss -o css/modernity.min.css css/modernity.css",
+    "build-clean": "rimraf css",
+    "build-sass": "node-sass --output-style expanded --source-map true scss/modernity.scss css/modernity.css",
+    "deploy": "npm run build",
+    "start": "npm run build-sass -- --watch"
   },
   "author": "Asyraf Hussin (https://github.com/AsyrafHussin)",
   "license": "ISC",
