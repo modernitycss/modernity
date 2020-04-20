@@ -15,6 +15,10 @@
   "author": "Asyraf Hussin (https://github.com/AsyrafHussin)",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "autoprefixer": "^9.7.6",
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.13.1",
+    "postcss-cli": "^7.1.0",
+    "rimraf": "^3.0.2"
   }
 }
