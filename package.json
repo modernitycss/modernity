@@ -14,7 +14,7 @@
     "build-autoprefix": "postcss --use autoprefixer --map false --output css/modernity.css css/modernity.css",
     "build-cleancss": "cleancss -o css/modernity.min.css css/modernity.css",
     "build-clean": "rimraf css",
-    "build-sass": "node-sass --output-style expanded --source-map true scss/modernity.scss css/modernity.css",
+    "build-sass": "node-sass --output-style expanded --source-map true sass/modernity.scss css/modernity.css",
     "deploy": "npm run build",
     "start": "npm run build-sass -- --watch"
   },
