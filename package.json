@@ -11,10 +11,10 @@
   "homepage": "https://github.com/AsyrafHussin/modernity",
   "scripts": {
     "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
-    "build-autoprefix": "postcss --use autoprefixer --map false --output css/modernity.css css/modernity.css",
-    "build-cleancss": "cleancss -o css/modernity.min.css css/modernity.css",
-    "build-clean": "rimraf css",
-    "build-sass": "node-sass --output-style expanded --source-map true sass/modernity.scss css/modernity.css",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output dist/css/modernity.css dist/css/modernity.css",
+    "build-cleancss": "cleancss -o dist/css/modernity.min.css dist/css/modernity.css",
+    "build-clean": "rimraf dist/css",
+    "build-sass": "node-sass --output-style expanded --source-map true sass/modernity.scss dist/css/modernity.css",
     "deploy": "npm run build",
     "start": "npm run build-sass -- --watch"
   },
