@@ -1,0 +1,10 @@
+# Files
+
+.DS_Store
+index.html
+
+# Folders
+
+.idea/
+.sass-cache
+/node_modules/
