@@ -1,1 +1,46 @@
-// variables here
+// Color system
+$white: #fff !default;
+$black: #000 !default;
+$gray: #9e9e9e !default;
+$brown: #795548 !default;
+$blue-gray: #607d8b !default;
+$deep-purple: #673ab7 !default;
+$purple: #9c27b0 !default;
+$indigo: #3f51b5 !default;
+$blue: #2196f3 !default;
+$light-blue: #03a9f4 !default;
+$cyan: #00bcd4 !default;
+$teal: #009688 !default;
+$green: #4caf50 !default;
+$light-green: #8bc34a !default;
+$lime: #cddc39 !default;
+$yellow: #ffeb3b !default;
+$amber: #ffc107 !default;
+$orange: #ff9800 !default;
+$deep-orange: #ff5722 !default;
+$red: #f44336 !default;
+$pink: #e91e63 !default;
+
+$theme-colors: (
+  "white": $white,
+  "black": $black,
+  "gray": $gray,
+  "brown": $brown,
+  "blue-gray": $blue-gray,
+  "deep-purple": $deep-purple,
+  "purple": $purple,
+  "indigo": $indigo,
+  "blue": $blue,
+  "light-blue": $light-blue,
+  "cyan": $cyan,
+  "teal": $teal,
+  "green": $green,
+  "light-green": $light-green,
+  "lime": $lime,
+  "yellow": $yellow,
+  "amber": $amber,
+  "orange": $orange,
+  "deep-orange": $deep-orange,
+  "red": $red,
+  "pink": $pink,
+) !default;
