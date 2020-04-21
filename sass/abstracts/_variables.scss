@@ -45,6 +45,30 @@ $theme-colors: (
   "pink": $pink,
 ) !default;
 
+$theme-text-colors: (
+  "white": $black,
+  "black": $white,
+  "gray": $black,
+  "brown": $white,
+  "blue-gray": $white,
+  "deep-purple": $white,
+  "purple": $white,
+  "indigo": $white,
+  "blue": $white,
+  "light-blue": $black,
+  "cyan": $black,
+  "teal": $white,
+  "green": $white,
+  "light-green": $black,
+  "lime": $black,
+  "yellow": $black,
+  "amber": $black,
+  "orange": $black,
+  "deep-orange": $white,
+  "red": $white,
+  "pink": $white,
+) !default;
+
 // Typography
 $font-family-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
   Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
