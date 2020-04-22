@@ -1,15 +1,17 @@
 .container {
   padding-right: 1rem;
   padding-left: 1rem;
+  margin: 0 auto;
 
-  &:not(.is-fluid) {
-    margin: 0 auto;
-
-    @each $bp, $value in $breakpoints {
-      @include genbp($value) {
-        width: 100%;
-        max-width: map-get($container-sizes, $bp);
-      }
+  @each $bp, $value in $breakpoints {
+    @include genbp($value) {
+      width: 100%;
+      max-width: map-get($container-sizes, $bp);
     }
   }
+}
+
+.container-fluid {
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
