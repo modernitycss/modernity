@@ -8,7 +8,8 @@
     "responsive",
     "framework"
   ],
-  "homepage": "https://github.com/AsyrafHussin/modernity",
+  "homepage": "https://modernitycss.com",
+  "author": "Asyraf Hussin (https://github.com/AsyrafHussin)",
   "scripts": {
     "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
     "build-autoprefix": "postcss --use autoprefixer --map false --output dist/css/modernity.css dist/css/modernity.css",
@@ -18,7 +19,15 @@
     "deploy": "npm run build",
     "start": "npm run build-sass -- --watch"
   },
-  "author": "Asyraf Hussin (https://github.com/AsyrafHussin)",
+  "style": "dist/css/modernity.css",
+  "sass": "sass/modernity.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsyrafHussin/modernity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AsyrafHussin/modernity/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.7.6",
