@@ -25,5 +25,13 @@
       border: 0.1rem solid #e2e8f0;
     }
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+
+    &:hover {
+      @if ($color == "black") {
+        background-color: lighten($value, 15%);
+      } @else {
+        background-color: darken($value, 5%);
+      }
+    }
   }
 }

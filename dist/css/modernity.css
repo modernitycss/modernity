@@ -140,10 +140,18 @@ h6 {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
+.btn-white:hover {
+  background-color: #f2f2f2;
+}
+
 .btn-black {
   background-color: #000;
   color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-black:hover {
+  background-color: #262626;
 }
 
 .btn-gray {
@@ -152,10 +160,18 @@ h6 {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
+.btn-gray:hover {
+  background-color: #566f7c;
+}
+
 .btn-brown {
   background-color: #795548;
   color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-brown:hover {
+  background-color: #694a3e;
 }
 
 .btn-purple {
@@ -164,10 +180,18 @@ h6 {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
+.btn-purple:hover {
+  background-color: #5c34a4;
+}
+
 .btn-indigo {
   background-color: #3f51b5;
   color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-indigo:hover {
+  background-color: #3849a2;
 }
 
 .btn-blue {
@@ -176,10 +200,18 @@ h6 {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
+.btn-blue:hover {
+  background-color: #0d8aee;
+}
+
 .btn-cyan {
   background-color: #00bcd4;
   color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-cyan:hover {
+  background-color: #00a5bb;
 }
 
 .btn-teal {
@@ -188,10 +220,18 @@ h6 {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
+.btn-teal:hover {
+  background-color: #007d71;
+}
+
 .btn-green {
   background-color: #4caf50;
   color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-green:hover {
+  background-color: #449d48;
 }
 
 .btn-lime {
@@ -200,10 +240,18 @@ h6 {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
+.btn-lime:hover {
+  background-color: #c6d626;
+}
+
 .btn-yellow {
   background-color: #ffeb3b;
   color: #000;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-yellow:hover {
+  background-color: #ffe822;
 }
 
 .btn-amber {
@@ -212,10 +260,18 @@ h6 {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
+.btn-amber:hover {
+  background-color: #edb100;
+}
+
 .btn-orange {
   background-color: #ff5722;
   color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-orange:hover {
+  background-color: #ff4409;
 }
 
 .btn-red {
@@ -224,10 +280,18 @@ h6 {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
+.btn-red:hover {
+  background-color: #f32c1e;
+}
+
 .btn-pink {
   background-color: #e91e63;
   color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-pink:hover {
+  background-color: #d81558;
 }
 
 .container {
