@@ -4,8 +4,14 @@
   }
 }
 
-@each $align in $text-align {
+@each $align, $value in $text-align {
   .text-#{$align} {
-    text-align: $align;
+    text-align: $value;
+  }
+}
+
+@each $weight, $value in $font-weight {
+  .fw-#{$weight} {
+    font-weight: $value;
   }
 }
