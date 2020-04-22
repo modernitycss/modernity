@@ -1,27 +1,32 @@
+// text color
 @each $color, $value in $grays {
   .text-#{$color} {
     color: $value;
   }
 }
 
+// text align
 @each $align, $value in $text-align {
   .text-#{$align} {
     text-align: $value;
   }
 }
 
+// font weight
 @each $weight, $value in $font-weight {
   .fw-#{$weight} {
     font-weight: $value;
   }
 }
 
+// text transform
 @each $transform, $value in $text-transform {
   .text-#{$transform} {
     text-transform: $value;
   }
 }
 
+// font size
 @each $size, $value in $font-size {
   .f-#{$size} {
     font-size: $value;
