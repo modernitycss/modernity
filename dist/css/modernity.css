@@ -286,19 +286,115 @@ h6 {
   display: inline-flex;
   text-align: center;
   vertical-align: middle;
-  background: #fff;
-  border: 0.1rem solid #e2e8f0;
+  background-color: transparent;
+  border: 0.1rem solid transparent;
   line-height: 1.5;
   text-decoration: none;
   padding: 0.3rem 0.7rem;
   font-size: 1rem;
   border-radius: 0.3rem;
   color: #4a5568;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn + .btn {
   margin-left: 0.5rem;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+  border: 0.1rem solid #e2e8f0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-gray {
+  background-color: #607d8b;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-brown {
+  background-color: #795548;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-purple {
+  background-color: #673ab7;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-indigo {
+  background-color: #3f51b5;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-blue {
+  background-color: #2196f3;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-cyan {
+  background-color: #00bcd4;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-teal {
+  background-color: #009688;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-green {
+  background-color: #4caf50;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-lime {
+  background-color: #cddc39;
+  color: #000;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-yellow {
+  background-color: #ffeb3b;
+  color: #000;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-amber {
+  background-color: #ffc107;
+  color: #000;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-orange {
+  background-color: #ff5722;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-red {
+  background-color: #f44336;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-pink {
+  background-color: #e91e63;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 /*# sourceMappingURL=modernity.css.map */
