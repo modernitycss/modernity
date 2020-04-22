@@ -35,3 +35,11 @@
     }
   }
 }
+
+.btn-full {
+  display: block;
+
+  + .btn {
+    margin-top: 0.5rem;
+  }
+}

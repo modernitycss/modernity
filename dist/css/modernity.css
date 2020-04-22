@@ -294,6 +294,14 @@ h6 {
   background-color: #d81558;
 }
 
+.btn-full {
+  display: block;
+}
+
+.btn-full + .btn {
+  margin-top: 0.5rem;
+}
+
 .container {
   padding-right: 1rem;
   padding-left: 1rem;
