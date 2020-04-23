@@ -40,13 +40,13 @@
 }
 
 // breakpoint screen media query
-@mixin genbp($min, $max: "null", $device: "screen") {
+@mixin genbp($min, $max: "null") {
   @if $max == "null" {
-    @media only #{$device} and (min-width: #{$min}) {
+    @media (min-width: #{$min}) {
       @content;
     }
   } @else {
-    @media only #{$device} and (min-width: #{$min}) and (max-width: #{$max}) {
+    @media (min-width: #{$min}) and (max-width: #{$max}) {
       @content;
     }
   }

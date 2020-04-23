@@ -425,34 +425,34 @@ h6 {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 320px) {
+@media (min-width: 320px) {
   .container {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
   .container {
     width: 100%;
     max-width: 570px;
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media (min-width: 900px) {
   .container {
     width: 100%;
     max-width: 860px;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     width: 100%;
     max-width: 1150px;
   }
 }
 
-@media only screen and (min-width: 1800px) {
+@media (min-width: 1800px) {
   .container {
     width: 100%;
     max-width: 1400px;
@@ -682,6 +682,411 @@ h6 {
 
 .f-64 {
   font-size: 4rem;
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .xs\:text-center {
+    text-align: center;
+  }
+  .xs\:text-left {
+    text-align: left;
+  }
+  .xs\:text-right {
+    text-align: right;
+  }
+  .xs\:text-justify {
+    text-align: justify;
+  }
+  .xs\:fw-100 {
+    font-weight: 100;
+  }
+  .xs\:fw-200 {
+    font-weight: 200;
+  }
+  .xs\:fw-300 {
+    font-weight: 300;
+  }
+  .xs\:fw-400 {
+    font-weight: 400;
+  }
+  .xs\:fw-500 {
+    font-weight: 500;
+  }
+  .xs\:fw-600 {
+    font-weight: 600;
+  }
+  .xs\:fw-700 {
+    font-weight: 700;
+  }
+  .xs\:fw-800 {
+    font-weight: 800;
+  }
+  .xs\:fw-900 {
+    font-weight: 900;
+  }
+  .xs\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .xs\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .xs\:text-capitalize {
+    text-transform: capitalize;
+  }
+  .xs\:f-12 {
+    font-size: 0.75rem;
+  }
+  .xs\:f-14 {
+    font-size: 0.875rem;
+  }
+  .xs\:f-16 {
+    font-size: 1rem;
+  }
+  .xs\:f-18 {
+    font-size: 1.125rem;
+  }
+  .xs\:f-20 {
+    font-size: 1.25rem;
+  }
+  .xs\:f-24 {
+    font-size: 1.5rem;
+  }
+  .xs\:f-30 {
+    font-size: 1.875rem;
+  }
+  .xs\:f-36 {
+    font-size: 2.25rem;
+  }
+  .xs\:f-48 {
+    font-size: 3rem;
+  }
+  .xs\:f-64 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .sm\:text-center {
+    text-align: center;
+  }
+  .sm\:text-left {
+    text-align: left;
+  }
+  .sm\:text-right {
+    text-align: right;
+  }
+  .sm\:text-justify {
+    text-align: justify;
+  }
+  .sm\:fw-100 {
+    font-weight: 100;
+  }
+  .sm\:fw-200 {
+    font-weight: 200;
+  }
+  .sm\:fw-300 {
+    font-weight: 300;
+  }
+  .sm\:fw-400 {
+    font-weight: 400;
+  }
+  .sm\:fw-500 {
+    font-weight: 500;
+  }
+  .sm\:fw-600 {
+    font-weight: 600;
+  }
+  .sm\:fw-700 {
+    font-weight: 700;
+  }
+  .sm\:fw-800 {
+    font-weight: 800;
+  }
+  .sm\:fw-900 {
+    font-weight: 900;
+  }
+  .sm\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .sm\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .sm\:text-capitalize {
+    text-transform: capitalize;
+  }
+  .sm\:f-12 {
+    font-size: 0.75rem;
+  }
+  .sm\:f-14 {
+    font-size: 0.875rem;
+  }
+  .sm\:f-16 {
+    font-size: 1rem;
+  }
+  .sm\:f-18 {
+    font-size: 1.125rem;
+  }
+  .sm\:f-20 {
+    font-size: 1.25rem;
+  }
+  .sm\:f-24 {
+    font-size: 1.5rem;
+  }
+  .sm\:f-30 {
+    font-size: 1.875rem;
+  }
+  .sm\:f-36 {
+    font-size: 2.25rem;
+  }
+  .sm\:f-48 {
+    font-size: 3rem;
+  }
+  .sm\:f-64 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .md\:text-center {
+    text-align: center;
+  }
+  .md\:text-left {
+    text-align: left;
+  }
+  .md\:text-right {
+    text-align: right;
+  }
+  .md\:text-justify {
+    text-align: justify;
+  }
+  .md\:fw-100 {
+    font-weight: 100;
+  }
+  .md\:fw-200 {
+    font-weight: 200;
+  }
+  .md\:fw-300 {
+    font-weight: 300;
+  }
+  .md\:fw-400 {
+    font-weight: 400;
+  }
+  .md\:fw-500 {
+    font-weight: 500;
+  }
+  .md\:fw-600 {
+    font-weight: 600;
+  }
+  .md\:fw-700 {
+    font-weight: 700;
+  }
+  .md\:fw-800 {
+    font-weight: 800;
+  }
+  .md\:fw-900 {
+    font-weight: 900;
+  }
+  .md\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .md\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .md\:text-capitalize {
+    text-transform: capitalize;
+  }
+  .md\:f-12 {
+    font-size: 0.75rem;
+  }
+  .md\:f-14 {
+    font-size: 0.875rem;
+  }
+  .md\:f-16 {
+    font-size: 1rem;
+  }
+  .md\:f-18 {
+    font-size: 1.125rem;
+  }
+  .md\:f-20 {
+    font-size: 1.25rem;
+  }
+  .md\:f-24 {
+    font-size: 1.5rem;
+  }
+  .md\:f-30 {
+    font-size: 1.875rem;
+  }
+  .md\:f-36 {
+    font-size: 2.25rem;
+  }
+  .md\:f-48 {
+    font-size: 3rem;
+  }
+  .md\:f-64 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1799px) {
+  .lg\:text-center {
+    text-align: center;
+  }
+  .lg\:text-left {
+    text-align: left;
+  }
+  .lg\:text-right {
+    text-align: right;
+  }
+  .lg\:text-justify {
+    text-align: justify;
+  }
+  .lg\:fw-100 {
+    font-weight: 100;
+  }
+  .lg\:fw-200 {
+    font-weight: 200;
+  }
+  .lg\:fw-300 {
+    font-weight: 300;
+  }
+  .lg\:fw-400 {
+    font-weight: 400;
+  }
+  .lg\:fw-500 {
+    font-weight: 500;
+  }
+  .lg\:fw-600 {
+    font-weight: 600;
+  }
+  .lg\:fw-700 {
+    font-weight: 700;
+  }
+  .lg\:fw-800 {
+    font-weight: 800;
+  }
+  .lg\:fw-900 {
+    font-weight: 900;
+  }
+  .lg\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .lg\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .lg\:text-capitalize {
+    text-transform: capitalize;
+  }
+  .lg\:f-12 {
+    font-size: 0.75rem;
+  }
+  .lg\:f-14 {
+    font-size: 0.875rem;
+  }
+  .lg\:f-16 {
+    font-size: 1rem;
+  }
+  .lg\:f-18 {
+    font-size: 1.125rem;
+  }
+  .lg\:f-20 {
+    font-size: 1.25rem;
+  }
+  .lg\:f-24 {
+    font-size: 1.5rem;
+  }
+  .lg\:f-30 {
+    font-size: 1.875rem;
+  }
+  .lg\:f-36 {
+    font-size: 2.25rem;
+  }
+  .lg\:f-48 {
+    font-size: 3rem;
+  }
+  .lg\:f-64 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .xl\:text-center {
+    text-align: center;
+  }
+  .xl\:text-left {
+    text-align: left;
+  }
+  .xl\:text-right {
+    text-align: right;
+  }
+  .xl\:text-justify {
+    text-align: justify;
+  }
+  .xl\:fw-100 {
+    font-weight: 100;
+  }
+  .xl\:fw-200 {
+    font-weight: 200;
+  }
+  .xl\:fw-300 {
+    font-weight: 300;
+  }
+  .xl\:fw-400 {
+    font-weight: 400;
+  }
+  .xl\:fw-500 {
+    font-weight: 500;
+  }
+  .xl\:fw-600 {
+    font-weight: 600;
+  }
+  .xl\:fw-700 {
+    font-weight: 700;
+  }
+  .xl\:fw-800 {
+    font-weight: 800;
+  }
+  .xl\:fw-900 {
+    font-weight: 900;
+  }
+  .xl\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .xl\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .xl\:text-capitalize {
+    text-transform: capitalize;
+  }
+  .xl\:f-12 {
+    font-size: 0.75rem;
+  }
+  .xl\:f-14 {
+    font-size: 0.875rem;
+  }
+  .xl\:f-16 {
+    font-size: 1rem;
+  }
+  .xl\:f-18 {
+    font-size: 1.125rem;
+  }
+  .xl\:f-20 {
+    font-size: 1.25rem;
+  }
+  .xl\:f-24 {
+    font-size: 1.5rem;
+  }
+  .xl\:f-30 {
+    font-size: 1.875rem;
+  }
+  .xl\:f-36 {
+    font-size: 2.25rem;
+  }
+  .xl\:f-48 {
+    font-size: 3rem;
+  }
+  .xl\:f-64 {
+    font-size: 4rem;
+  }
 }
 
 /*# sourceMappingURL=modernity.css.map */
