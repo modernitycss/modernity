@@ -134,6 +134,15 @@ h6 {
   margin-top: 0.5rem;
 }
 
+.btn-transparent {
+  background-color: transparent;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-transparent:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .btn-white {
   background-color: #fff;
   color: #000;
@@ -450,6 +459,10 @@ h6 {
 .container-fluid {
   padding-right: 1rem;
   padding-left: 1rem;
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-white {
