@@ -3,8 +3,3 @@
     background-color: $value;
   }
 }
-@each $color, $value in $whites {
-  .bg-#{$color} {
-    background-color: $value;
-  }
-}

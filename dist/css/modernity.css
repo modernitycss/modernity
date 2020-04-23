@@ -145,6 +145,33 @@ h6 {
   background-color: #f2f2f2;
 }
 
+.btn-snow {
+  background-color: #fffafa;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-snow:hover {
+  background-color: #ffe1e1;
+}
+
+.btn-ghostwhite {
+  background-color: #f8f8ff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-ghostwhite:hover {
+  background-color: #dfdfff;
+}
+
+.btn-whitesmoke {
+  background-color: #f5f5f5;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-whitesmoke:hover {
+  background-color: #e8e8e8;
+}
+
 .btn-black {
   background-color: #000;
   color: #fff;
@@ -429,6 +456,18 @@ h6 {
   background-color: #fff;
 }
 
+.bg-snow {
+  background-color: #fffafa;
+}
+
+.bg-ghostwhite {
+  background-color: #f8f8ff;
+}
+
+.bg-whitesmoke {
+  background-color: #f5f5f5;
+}
+
 .bg-black {
   background-color: #000;
 }
@@ -523,62 +562,6 @@ h6 {
 
 .bg-pink {
   background-color: #e91e63;
-}
-
-.bg-snow {
-  background-color: #fffafa;
-}
-
-.bg-honeydew {
-  background-color: #f0fff0;
-}
-
-.bg-mintcream {
-  background-color: #f5fffa;
-}
-
-.bg-ghostwhite {
-  background-color: #f8f8ff;
-}
-
-.bg-whitesmoke {
-  background-color: #f5f5f5;
-}
-
-.bg-seashell {
-  background-color: #fff5ee;
-}
-
-.bg-beige {
-  background-color: #f5f5dc;
-}
-
-.bg-oldlace {
-  background-color: #fdf5e6;
-}
-
-.bg-floralwhite {
-  background-color: #fffaf0;
-}
-
-.bg-ivory {
-  background-color: #fffff0;
-}
-
-.bg-antiquewhite {
-  background-color: #faebd7;
-}
-
-.bg-linen {
-  background-color: #faf0e6;
-}
-
-.bg-lavenderblush {
-  background-color: #fff0f5;
-}
-
-.bg-mistyrose {
-  background-color: #ffe4e1;
 }
 
 .text-center {

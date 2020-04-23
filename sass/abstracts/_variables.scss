@@ -1,5 +1,8 @@
 // Color system
 $white: #fff !default;
+$snow: #fffafa;
+$ghostwhite: #f8f8ff;
+$whitesmoke: #f5f5f5;
 $black: #000 !default;
 $brown: #795548 !default;
 
@@ -29,6 +32,9 @@ $pink: #e91e63 !default;
 
 $theme-colors: (
   "white": $white,
+  "snow": $snow,
+  "ghostwhite": $ghostwhite,
+  "whitesmoke": $whitesmoke,
   "black": $black,
   "gray-50": $gray-50,
   "gray-100": $gray-100,
@@ -72,40 +78,6 @@ $theme-text-colors: (
   "orange": $white,
   "red": $white,
   "pink": $white,
-) !default;
-
-$snow: #fffafa;
-$honeydew: #f0fff0;
-$mintcream: #f5fffa;
-$azure: #f0ffff;
-$aliceblue: #f0f8ff;
-$ghostwhite: #f8f8ff;
-$whitesmoke: #f5f5f5;
-$seashell: #fff5ee;
-$beige: #f5f5dc;
-$oldlace: #fdf5e6;
-$floralwhite: #fffaf0;
-$ivory: #fffff0;
-$antiquewhite: #faebd7;
-$linen: #faf0e6;
-$lavenderblush: #fff0f5;
-$mistyrose: #ffe4e1;
-
-$whites: (
-  "snow": $snow,
-  "honeydew": $honeydew,
-  "mintcream": $mintcream,
-  "ghostwhite": $ghostwhite,
-  "whitesmoke": $whitesmoke,
-  "seashell": $seashell,
-  "beige": $beige,
-  "oldlace": $oldlace,
-  "floralwhite": $floralwhite,
-  "ivory": $ivory,
-  "antiquewhite": $antiquewhite,
-  "linen": $linen,
-  "lavenderblush": $lavenderblush,
-  "mistyrose": $mistyrose,
 ) !default;
 
 // Typography
