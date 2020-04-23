@@ -1,59 +1,27 @@
 // text align
-@each $align, $value in $text-align {
-  .text-#{$align} {
-    text-align: $value;
-  }
-}
+@include text-align;
 
 // font weight
-@each $weight, $value in $font-weight {
-  .fw-#{$weight} {
-    font-weight: $value;
-  }
-}
+@include font-weight;
 
 // text transform
-@each $transform, $value in $text-transform {
-  .text-#{$transform} {
-    text-transform: $value;
-  }
-}
+@include text-transform;
 
 // font size
-@each $size, $value in $font-size {
-  .f-#{$size} {
-    font-size: $value;
-  }
-}
+@include font-size;
 
 @each $bp, $bp-value in $breakpoints {
   @include genbp($bp-value, map-get($breakpoints-max, $bp)) {
     // text align
-    @each $align, $value in $text-align {
-      .#{$bp}\:text-#{$align} {
-        text-align: $value;
-      }
-    }
+    @include text-align(true, $bp);
 
     // font weight
-    @each $weight, $value in $font-weight {
-      .#{$bp}\:fw-#{$weight} {
-        font-weight: $value;
-      }
-    }
+    @include font-weight(true, $bp);
 
     // text transform
-    @each $transform, $value in $text-transform {
-      .#{$bp}\:text-#{$transform} {
-        text-transform: $value;
-      }
-    }
+    @include text-transform(true, $bp);
 
     // font size
-    @each $size, $size-value in $font-size {
-      .#{$bp}\:f-#{$size} {
-        font-size: $size-value;
-      }
-    }
+    @include font-size(true, $bp);
   }
 }

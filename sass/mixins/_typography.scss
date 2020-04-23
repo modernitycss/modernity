@@ -1,0 +1,60 @@
+// text align
+@mixin text-align($breakpoint: false, $bp: "null") {
+  // text align
+  @each $align, $value in $text-align {
+    @if ($breakpoint == false) {
+      .text-#{$align} {
+        text-align: $value;
+      }
+    } @else {
+      .#{$bp}\:text-#{$align} {
+        text-align: $value;
+      }
+    }
+  }
+}
+
+// font weight
+@mixin font-weight($breakpoint: false, $bp: "null") {
+  @each $weight, $value in $font-weight {
+    @if ($breakpoint == false) {
+      .fw-#{$weight} {
+        font-weight: $value;
+      }
+    } @else {
+      .#{$bp}\:fw-#{$weight} {
+        font-weight: $value;
+      }
+    }
+  }
+}
+
+// text transform
+@mixin text-transform($breakpoint: false, $bp: "null") {
+  @each $transform, $value in $text-transform {
+    @if ($breakpoint == false) {
+      .text-#{$transform} {
+        text-transform: $value;
+      }
+    } @else {
+      .#{$bp}\:text-#{$transform} {
+        text-transform: $value;
+      }
+    }
+  }
+}
+
+// font size
+@mixin font-size($breakpoint: false, $bp: "null") {
+  @each $size, $value in $font-size {
+    @if ($breakpoint == false) {
+      .f-#{$size} {
+        font-size: $value;
+      }
+    } @else {
+      .#{$bp}\:f-#{$size} {
+        font-size: $value;
+      }
+    }
+  }
+}
