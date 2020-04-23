@@ -2,7 +2,18 @@
 $white: #fff !default;
 $black: #000 !default;
 $brown: #795548 !default;
-$gray: #607d8b !default;
+
+$gray-50: #f1f3f5 !default;
+$gray-100: #e2e7ec !default;
+$gray-200: #c6ced8 !default;
+$gray-300: #a9b6c5 !default;
+$gray-400: #8d9db1 !default;
+$gray: #70859e !default;
+$gray-600: #65788e !default;
+$gray-700: #4e5d6f !default;
+$gray-800: #38434f !default;
+$gray-900: #22282f !default;
+
 $purple: #673ab7 !default;
 $indigo: #3f51b5 !default;
 $blue: #2196f3 !default;
@@ -19,7 +30,16 @@ $pink: #e91e63 !default;
 $theme-colors: (
   "white": $white,
   "black": $black,
+  "gray-50": $gray-50,
+  "gray-100": $gray-100,
+  "gray-200": $gray-200,
+  "gray-300": $gray-300,
+  "gray-400": $gray-400,
   "gray": $gray,
+  "gray-600": $gray-600,
+  "gray-700": $gray-700,
+  "gray-800": $gray-800,
+  "gray-900": $gray-900,
   "brown": $brown,
   "purple": $purple,
   "indigo": $indigo,
@@ -87,30 +107,6 @@ $whites: (
   "lavenderblush": $lavenderblush,
   "mistyrose": $mistyrose,
 ) !default;
-
-$gray-50: #eceff1;
-$gray-100: #cfd8dc;
-$gray-200: #b0bec5;
-$gray-300: #90a4ae;
-$gray-400: #78909c;
-$gray-500: $gray;
-$gray-600: #546e7a;
-$gray-700: #455a64;
-$gray-800: #37474f;
-$gray-900: #263238;
-
-$grays: (
-  "gray-50": $gray-50,
-  "gray-100": $gray-100,
-  "gray-200": $gray-200,
-  "gray-300": $gray-300,
-  "gray-400": $gray-400,
-  "gray": $gray-500,
-  "gray-600": $gray-600,
-  "gray-700": $gray-700,
-  "gray-800": $gray-800,
-  "gray-900": $gray-900,
-);
 
 // Typography
 $font-family-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
