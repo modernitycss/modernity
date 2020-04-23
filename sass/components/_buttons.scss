@@ -22,7 +22,12 @@
   .btn-#{$color} {
     background-color: $value;
     color: map-get($theme-text-colors, $color);
-    @if ($color == "white") {
+    @if (
+      ($color == "white") or
+        ($color == "snow") or
+        ($color == "ghostwhite") or
+        ($color == "whitesmoke")
+    ) {
       border: 0.1rem solid #e2e8f0;
     }
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);

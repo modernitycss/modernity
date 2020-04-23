@@ -156,6 +156,7 @@ h6 {
 
 .btn-snow {
   background-color: #fffafa;
+  border: 0.1rem solid #e2e8f0;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -165,6 +166,7 @@ h6 {
 
 .btn-ghostwhite {
   background-color: #f8f8ff;
+  border: 0.1rem solid #e2e8f0;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -174,6 +176,7 @@ h6 {
 
 .btn-whitesmoke {
   background-color: #f5f5f5;
+  border: 0.1rem solid #e2e8f0;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
