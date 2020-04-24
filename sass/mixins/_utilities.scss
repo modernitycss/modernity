@@ -4,7 +4,6 @@
   $breakpoint-type: null
 ) {
   @each $utility, $utility-value in $utility-map {
-    $breakpoint: map-get($utility-value, breakpoint);
     $class: map-get($utility-value, class);
     $property: map-get($utility-value, property);
     $values: map-get($utility-value, values);
