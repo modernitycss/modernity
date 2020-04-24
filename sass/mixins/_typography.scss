@@ -1,13 +1,12 @@
 // text align
-@mixin text-align($breakpoint: false, $bp: "null") {
-  // text align
+@mixin text-align($breakpoint: false, $breakpoint-type: null) {
   @each $align, $value in $text-align {
-    @if ($breakpoint == false) {
+    @if $breakpoint == false {
       .text-#{$align} {
         text-align: $value;
       }
     } @else {
-      .#{$bp}\:text-#{$align} {
+      .#{$breakpoint-type}\:text-#{$align} {
         text-align: $value;
       }
     }
@@ -15,14 +14,14 @@
 }
 
 // font weight
-@mixin font-weight($breakpoint: false, $bp: "null") {
+@mixin font-weight($breakpoint: false, $breakpoint-type: null) {
   @each $weight, $value in $font-weight {
-    @if ($breakpoint == false) {
+    @if $breakpoint == false {
       .fw-#{$weight} {
         font-weight: $value;
       }
     } @else {
-      .#{$bp}\:fw-#{$weight} {
+      .#{$breakpoint-type}\:fw-#{$weight} {
         font-weight: $value;
       }
     }
@@ -30,14 +29,14 @@
 }
 
 // text transform
-@mixin text-transform($breakpoint: false, $bp: "null") {
+@mixin text-transform($breakpoint: false, $breakpoint-type: null) {
   @each $transform, $value in $text-transform {
-    @if ($breakpoint == false) {
+    @if $breakpoint == false {
       .text-#{$transform} {
         text-transform: $value;
       }
     } @else {
-      .#{$bp}\:text-#{$transform} {
+      .#{$breakpoint-type}\:text-#{$transform} {
         text-transform: $value;
       }
     }
@@ -45,14 +44,14 @@
 }
 
 // font size
-@mixin font-size($breakpoint: false, $bp: "null") {
+@mixin font-size($breakpoint: false, $breakpoint-type: null) {
   @each $size, $value in $font-size {
-    @if ($breakpoint == false) {
+    @if $breakpoint == false {
       .f-#{$size} {
         font-size: $value;
       }
     } @else {
-      .#{$bp}\:f-#{$size} {
+      .#{$breakpoint-type}\:f-#{$size} {
         font-size: $value;
       }
     }

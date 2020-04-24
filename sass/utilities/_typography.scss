@@ -10,18 +10,21 @@
 // font size
 @include font-size;
 
-@each $bp, $bp-value in $breakpoints {
-  @include media-breakpoint($bp-value, map-get($breakpoints-max, $bp)) {
+@each $breakpoint-type, $breakpoint-value in $breakpoints {
+  @include media-breakpoint(
+    $breakpoint-value,
+    map-get($breakpoints-max, $breakpoint-type)
+  ) {
     // text align
-    @include text-align(true, $bp);
+    @include text-align(true, $breakpoint-type);
 
     // font weight
-    @include font-weight(true, $bp);
+    @include font-weight(true, $breakpoint-type);
 
     // text transform
-    @include text-transform(true, $bp);
+    @include text-transform(true, $breakpoint-type);
 
     // font size
-    @include font-size(true, $bp);
+    @include font-size(true, $breakpoint-type);
   }
 }
