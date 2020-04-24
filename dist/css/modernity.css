@@ -428,28 +428,35 @@ h6 {
 @media (min-width: 576px) {
   .container {
     width: 100%;
-    max-width: 546px;
+    max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
     width: 100%;
-    max-width: 728px;
+    max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
   .container {
     width: 100%;
-    max-width: 942px;
+    max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
     width: 100%;
-    max-width: 800px;
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400) {
+  .container {
+    width: 100%;
+    max-width: 1320px;
   }
 }
 
@@ -1002,7 +1009,7 @@ h6 {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
   .xl\:text-center {
     text-align: center;
   }
@@ -1079,6 +1086,87 @@ h6 {
     font-size: 3rem;
   }
   .xl\:f-64 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1400) {
+  .xxl\:text-center {
+    text-align: center;
+  }
+  .xxl\:text-left {
+    text-align: left;
+  }
+  .xxl\:text-right {
+    text-align: right;
+  }
+  .xxl\:text-justify {
+    text-align: justify;
+  }
+  .xxl\:fw-100 {
+    font-weight: 100;
+  }
+  .xxl\:fw-200 {
+    font-weight: 200;
+  }
+  .xxl\:fw-300 {
+    font-weight: 300;
+  }
+  .xxl\:fw-400 {
+    font-weight: 400;
+  }
+  .xxl\:fw-500 {
+    font-weight: 500;
+  }
+  .xxl\:fw-600 {
+    font-weight: 600;
+  }
+  .xxl\:fw-700 {
+    font-weight: 700;
+  }
+  .xxl\:fw-800 {
+    font-weight: 800;
+  }
+  .xxl\:fw-900 {
+    font-weight: 900;
+  }
+  .xxl\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .xxl\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .xxl\:text-capitalize {
+    text-transform: capitalize;
+  }
+  .xxl\:f-12 {
+    font-size: 0.75rem;
+  }
+  .xxl\:f-14 {
+    font-size: 0.875rem;
+  }
+  .xxl\:f-16 {
+    font-size: 1rem;
+  }
+  .xxl\:f-18 {
+    font-size: 1.125rem;
+  }
+  .xxl\:f-20 {
+    font-size: 1.25rem;
+  }
+  .xxl\:f-24 {
+    font-size: 1.5rem;
+  }
+  .xxl\:f-30 {
+    font-size: 1.875rem;
+  }
+  .xxl\:f-36 {
+    font-size: 2.25rem;
+  }
+  .xxl\:f-48 {
+    font-size: 3rem;
+  }
+  .xxl\:f-64 {
     font-size: 4rem;
   }
 }
