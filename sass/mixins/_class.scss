@@ -1,0 +1,11 @@
+@mixin generate-class($class-name, $breakpoint: false, $breakpoint-type: null) {
+  @if $breakpoint == false {
+    .#{$class-name} {
+      @content;
+    }
+  } @else {
+    .#{$breakpoint-type}\:#{$class-name} {
+      @content;
+    }
+  }
+}

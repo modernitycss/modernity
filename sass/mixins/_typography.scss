@@ -1,14 +1,9 @@
 // text align
 @mixin text-align($breakpoint: false, $breakpoint-type: null) {
   @each $align, $value in $text-align {
-    @if $breakpoint == false {
-      .text-#{$align} {
-        text-align: $value;
-      }
-    } @else {
-      .#{$breakpoint-type}\:text-#{$align} {
-        text-align: $value;
-      }
+    $class-name: text-#{$align};
+    @include generate-class($class-name, $breakpoint, $breakpoint-type) {
+      text-align: $value;
     }
   }
 }
@@ -16,14 +11,9 @@
 // font weight
 @mixin font-weight($breakpoint: false, $breakpoint-type: null) {
   @each $weight, $value in $font-weight {
-    @if $breakpoint == false {
-      .fw-#{$weight} {
-        font-weight: $value;
-      }
-    } @else {
-      .#{$breakpoint-type}\:fw-#{$weight} {
-        font-weight: $value;
-      }
+    $class-name: fw-#{$weight};
+    @include generate-class($class-name, $breakpoint, $breakpoint-type) {
+      font-weight: $value;
     }
   }
 }
@@ -31,14 +21,9 @@
 // text transform
 @mixin text-transform($breakpoint: false, $breakpoint-type: null) {
   @each $transform, $value in $text-transform {
-    @if $breakpoint == false {
-      .text-#{$transform} {
-        text-transform: $value;
-      }
-    } @else {
-      .#{$breakpoint-type}\:text-#{$transform} {
-        text-transform: $value;
-      }
+    $class-name: text-#{$transform};
+    @include generate-class($class-name, $breakpoint, $breakpoint-type) {
+      text-transform: $value;
     }
   }
 }
@@ -46,14 +31,9 @@
 // font size
 @mixin font-size($breakpoint: false, $breakpoint-type: null) {
   @each $size, $value in $font-size {
-    @if $breakpoint == false {
-      .f-#{$size} {
-        font-size: $value;
-      }
-    } @else {
-      .#{$breakpoint-type}\:f-#{$size} {
-        font-size: $value;
-      }
+    $class-name: f-#{$size};
+    @include generate-class($class-name, $breakpoint, $breakpoint-type) {
+      font-size: $value;
     }
   }
 }
