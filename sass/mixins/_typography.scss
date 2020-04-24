@@ -1,13 +1,3 @@
-// text transform
-@mixin text-transform($breakpoint: false, $breakpoint-type: null) {
-  @each $transform, $value in $text-transform {
-    $class-name: text-#{$transform};
-    @include generate-class($class-name, $breakpoint, $breakpoint-type) {
-      text-transform: $value;
-    }
-  }
-}
-
 // font size
 @mixin font-size($breakpoint: false, $breakpoint-type: null) {
   @each $size, $value in $font-size {

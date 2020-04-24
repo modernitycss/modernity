@@ -580,18 +580,6 @@ h6 {
   background-color: #e91e63;
 }
 
-.text-lowercase {
-  text-transform: lowercase;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
-}
-
-.text-capitalize {
-  text-transform: capitalize;
-}
-
 .f-12 {
   font-size: 0.75rem;
 }
@@ -633,15 +621,6 @@ h6 {
 }
 
 @media (max-width: 575px) {
-  .xs\:text-lowercase {
-    text-transform: lowercase;
-  }
-  .xs\:text-uppercase {
-    text-transform: uppercase;
-  }
-  .xs\:text-capitalize {
-    text-transform: capitalize;
-  }
   .xs\:f-12 {
     font-size: 0.75rem;
   }
@@ -711,6 +690,15 @@ h6 {
   .xs\:fw-900 {
     font-weight: 900;
   }
+  .xs\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .xs\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .xs\:text-capitalize {
+    text-transform: capitalize;
+  }
   .xs\:d-none {
     display: none;
   }
@@ -741,15 +729,6 @@ h6 {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .sm\:text-lowercase {
-    text-transform: lowercase;
-  }
-  .sm\:text-uppercase {
-    text-transform: uppercase;
-  }
-  .sm\:text-capitalize {
-    text-transform: capitalize;
-  }
   .sm\:f-12 {
     font-size: 0.75rem;
   }
@@ -819,6 +798,15 @@ h6 {
   .sm\:fw-900 {
     font-weight: 900;
   }
+  .sm\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .sm\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .sm\:text-capitalize {
+    text-transform: capitalize;
+  }
   .sm\:d-none {
     display: none;
   }
@@ -849,15 +837,6 @@ h6 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .md\:text-lowercase {
-    text-transform: lowercase;
-  }
-  .md\:text-uppercase {
-    text-transform: uppercase;
-  }
-  .md\:text-capitalize {
-    text-transform: capitalize;
-  }
   .md\:f-12 {
     font-size: 0.75rem;
   }
@@ -927,6 +906,15 @@ h6 {
   .md\:fw-900 {
     font-weight: 900;
   }
+  .md\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .md\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .md\:text-capitalize {
+    text-transform: capitalize;
+  }
   .md\:d-none {
     display: none;
   }
@@ -957,15 +945,6 @@ h6 {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .lg\:text-lowercase {
-    text-transform: lowercase;
-  }
-  .lg\:text-uppercase {
-    text-transform: uppercase;
-  }
-  .lg\:text-capitalize {
-    text-transform: capitalize;
-  }
   .lg\:f-12 {
     font-size: 0.75rem;
   }
@@ -1035,6 +1014,15 @@ h6 {
   .lg\:fw-900 {
     font-weight: 900;
   }
+  .lg\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .lg\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .lg\:text-capitalize {
+    text-transform: capitalize;
+  }
   .lg\:d-none {
     display: none;
   }
@@ -1065,15 +1053,6 @@ h6 {
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .xl\:text-lowercase {
-    text-transform: lowercase;
-  }
-  .xl\:text-uppercase {
-    text-transform: uppercase;
-  }
-  .xl\:text-capitalize {
-    text-transform: capitalize;
-  }
   .xl\:f-12 {
     font-size: 0.75rem;
   }
@@ -1143,6 +1122,15 @@ h6 {
   .xl\:fw-900 {
     font-weight: 900;
   }
+  .xl\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .xl\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .xl\:text-capitalize {
+    text-transform: capitalize;
+  }
   .xl\:d-none {
     display: none;
   }
@@ -1173,15 +1161,6 @@ h6 {
 }
 
 @media (min-width: 1400) {
-  .xxl\:text-lowercase {
-    text-transform: lowercase;
-  }
-  .xxl\:text-uppercase {
-    text-transform: uppercase;
-  }
-  .xxl\:text-capitalize {
-    text-transform: capitalize;
-  }
   .xxl\:f-12 {
     font-size: 0.75rem;
   }
@@ -1250,6 +1229,15 @@ h6 {
   }
   .xxl\:fw-900 {
     font-weight: 900;
+  }
+  .xxl\:text-lowercase {
+    text-transform: lowercase;
+  }
+  .xxl\:text-uppercase {
+    text-transform: uppercase;
+  }
+  .xxl\:text-capitalize {
+    text-transform: capitalize;
   }
   .xxl\:d-none {
     display: none;

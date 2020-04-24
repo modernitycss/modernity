@@ -16,6 +16,12 @@ $typographys: (
     class: fw,
     values: 100 200 300 400 500 600 700 800 900,
   ),
+  text-transform: (
+    breakpoint: true,
+    property: text-transform,
+    class: text,
+    values: lowercase uppercase capitalize,
+  ),
   display: (
     breakpoint: true,
     property: display,
@@ -25,11 +31,6 @@ $typographys: (
   ),
 );
 
-$text-transform: (
-  "lowercase": lowercase,
-  "uppercase": uppercase,
-  "capitalize": capitalize,
-);
 $font-size: (
   "12": 0.75rem,
   "14": 0.875rem,
