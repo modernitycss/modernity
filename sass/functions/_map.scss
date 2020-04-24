@@ -4,5 +4,6 @@
   @each $map in $maps {
     $collection: map-merge($collection, $map);
   }
+  @debug fak;
   @return $collection;
 }

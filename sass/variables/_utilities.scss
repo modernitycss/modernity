@@ -1,1 +1,1 @@
-$utilities: map-merge($displays, $typographys);
+$utilities: map-collect($colors, $displays, $typographys);
