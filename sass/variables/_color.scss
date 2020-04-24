@@ -88,4 +88,9 @@ $colors: (
     class: bg,
     values: $theme-colors,
   ),
+  text: (
+    property: color,
+    class: text,
+    values: $theme-colors,
+  ),
 );

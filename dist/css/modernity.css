@@ -580,6 +580,122 @@ h6 {
   background-color: #e91e63;
 }
 
+.text-transparent {
+  color: transparent;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-snow {
+  color: #fffafa;
+}
+
+.text-ghostwhite {
+  color: #f8f8ff;
+}
+
+.text-whitesmoke {
+  color: #f5f5f5;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-gray-50 {
+  color: #f1f3f5;
+}
+
+.text-gray-100 {
+  color: #e2e7ec;
+}
+
+.text-gray-200 {
+  color: #c6ced8;
+}
+
+.text-gray-300 {
+  color: #a9b6c5;
+}
+
+.text-gray-400 {
+  color: #8d9db1;
+}
+
+.text-gray {
+  color: #70859e;
+}
+
+.text-gray-600 {
+  color: #65788e;
+}
+
+.text-gray-700 {
+  color: #4e5d6f;
+}
+
+.text-gray-800 {
+  color: #38434f;
+}
+
+.text-gray-900 {
+  color: #22282f;
+}
+
+.text-brown {
+  color: #795548;
+}
+
+.text-purple {
+  color: #673ab7;
+}
+
+.text-indigo {
+  color: #3f51b5;
+}
+
+.text-blue {
+  color: #2196f3;
+}
+
+.text-cyan {
+  color: #00bcd4;
+}
+
+.text-teal {
+  color: #009688;
+}
+
+.text-green {
+  color: #4caf50;
+}
+
+.text-lime {
+  color: #cddc39;
+}
+
+.text-yellow {
+  color: #ffeb3b;
+}
+
+.text-amber {
+  color: #ffc107;
+}
+
+.text-orange {
+  color: #ff5722;
+}
+
+.text-red {
+  color: #f44336;
+}
+
+.text-pink {
+  color: #e91e63;
+}
+
 .d-none {
   display: none;
 }
@@ -804,6 +920,93 @@ h6 {
   .xs\:bg-pink {
     background-color: #e91e63;
   }
+  .xs\:text-transparent {
+    color: transparent;
+  }
+  .xs\:text-white {
+    color: #fff;
+  }
+  .xs\:text-snow {
+    color: #fffafa;
+  }
+  .xs\:text-ghostwhite {
+    color: #f8f8ff;
+  }
+  .xs\:text-whitesmoke {
+    color: #f5f5f5;
+  }
+  .xs\:text-black {
+    color: #000;
+  }
+  .xs\:text-gray-50 {
+    color: #f1f3f5;
+  }
+  .xs\:text-gray-100 {
+    color: #e2e7ec;
+  }
+  .xs\:text-gray-200 {
+    color: #c6ced8;
+  }
+  .xs\:text-gray-300 {
+    color: #a9b6c5;
+  }
+  .xs\:text-gray-400 {
+    color: #8d9db1;
+  }
+  .xs\:text-gray {
+    color: #70859e;
+  }
+  .xs\:text-gray-600 {
+    color: #65788e;
+  }
+  .xs\:text-gray-700 {
+    color: #4e5d6f;
+  }
+  .xs\:text-gray-800 {
+    color: #38434f;
+  }
+  .xs\:text-gray-900 {
+    color: #22282f;
+  }
+  .xs\:text-brown {
+    color: #795548;
+  }
+  .xs\:text-purple {
+    color: #673ab7;
+  }
+  .xs\:text-indigo {
+    color: #3f51b5;
+  }
+  .xs\:text-blue {
+    color: #2196f3;
+  }
+  .xs\:text-cyan {
+    color: #00bcd4;
+  }
+  .xs\:text-teal {
+    color: #009688;
+  }
+  .xs\:text-green {
+    color: #4caf50;
+  }
+  .xs\:text-lime {
+    color: #cddc39;
+  }
+  .xs\:text-yellow {
+    color: #ffeb3b;
+  }
+  .xs\:text-amber {
+    color: #ffc107;
+  }
+  .xs\:text-orange {
+    color: #ff5722;
+  }
+  .xs\:text-red {
+    color: #f44336;
+  }
+  .xs\:text-pink {
+    color: #e91e63;
+  }
   .xs\:d-none {
     display: none;
   }
@@ -995,6 +1198,93 @@ h6 {
   }
   .sm\:bg-pink {
     background-color: #e91e63;
+  }
+  .sm\:text-transparent {
+    color: transparent;
+  }
+  .sm\:text-white {
+    color: #fff;
+  }
+  .sm\:text-snow {
+    color: #fffafa;
+  }
+  .sm\:text-ghostwhite {
+    color: #f8f8ff;
+  }
+  .sm\:text-whitesmoke {
+    color: #f5f5f5;
+  }
+  .sm\:text-black {
+    color: #000;
+  }
+  .sm\:text-gray-50 {
+    color: #f1f3f5;
+  }
+  .sm\:text-gray-100 {
+    color: #e2e7ec;
+  }
+  .sm\:text-gray-200 {
+    color: #c6ced8;
+  }
+  .sm\:text-gray-300 {
+    color: #a9b6c5;
+  }
+  .sm\:text-gray-400 {
+    color: #8d9db1;
+  }
+  .sm\:text-gray {
+    color: #70859e;
+  }
+  .sm\:text-gray-600 {
+    color: #65788e;
+  }
+  .sm\:text-gray-700 {
+    color: #4e5d6f;
+  }
+  .sm\:text-gray-800 {
+    color: #38434f;
+  }
+  .sm\:text-gray-900 {
+    color: #22282f;
+  }
+  .sm\:text-brown {
+    color: #795548;
+  }
+  .sm\:text-purple {
+    color: #673ab7;
+  }
+  .sm\:text-indigo {
+    color: #3f51b5;
+  }
+  .sm\:text-blue {
+    color: #2196f3;
+  }
+  .sm\:text-cyan {
+    color: #00bcd4;
+  }
+  .sm\:text-teal {
+    color: #009688;
+  }
+  .sm\:text-green {
+    color: #4caf50;
+  }
+  .sm\:text-lime {
+    color: #cddc39;
+  }
+  .sm\:text-yellow {
+    color: #ffeb3b;
+  }
+  .sm\:text-amber {
+    color: #ffc107;
+  }
+  .sm\:text-orange {
+    color: #ff5722;
+  }
+  .sm\:text-red {
+    color: #f44336;
+  }
+  .sm\:text-pink {
+    color: #e91e63;
   }
   .sm\:d-none {
     display: none;
@@ -1188,6 +1478,93 @@ h6 {
   .md\:bg-pink {
     background-color: #e91e63;
   }
+  .md\:text-transparent {
+    color: transparent;
+  }
+  .md\:text-white {
+    color: #fff;
+  }
+  .md\:text-snow {
+    color: #fffafa;
+  }
+  .md\:text-ghostwhite {
+    color: #f8f8ff;
+  }
+  .md\:text-whitesmoke {
+    color: #f5f5f5;
+  }
+  .md\:text-black {
+    color: #000;
+  }
+  .md\:text-gray-50 {
+    color: #f1f3f5;
+  }
+  .md\:text-gray-100 {
+    color: #e2e7ec;
+  }
+  .md\:text-gray-200 {
+    color: #c6ced8;
+  }
+  .md\:text-gray-300 {
+    color: #a9b6c5;
+  }
+  .md\:text-gray-400 {
+    color: #8d9db1;
+  }
+  .md\:text-gray {
+    color: #70859e;
+  }
+  .md\:text-gray-600 {
+    color: #65788e;
+  }
+  .md\:text-gray-700 {
+    color: #4e5d6f;
+  }
+  .md\:text-gray-800 {
+    color: #38434f;
+  }
+  .md\:text-gray-900 {
+    color: #22282f;
+  }
+  .md\:text-brown {
+    color: #795548;
+  }
+  .md\:text-purple {
+    color: #673ab7;
+  }
+  .md\:text-indigo {
+    color: #3f51b5;
+  }
+  .md\:text-blue {
+    color: #2196f3;
+  }
+  .md\:text-cyan {
+    color: #00bcd4;
+  }
+  .md\:text-teal {
+    color: #009688;
+  }
+  .md\:text-green {
+    color: #4caf50;
+  }
+  .md\:text-lime {
+    color: #cddc39;
+  }
+  .md\:text-yellow {
+    color: #ffeb3b;
+  }
+  .md\:text-amber {
+    color: #ffc107;
+  }
+  .md\:text-orange {
+    color: #ff5722;
+  }
+  .md\:text-red {
+    color: #f44336;
+  }
+  .md\:text-pink {
+    color: #e91e63;
+  }
   .md\:d-none {
     display: none;
   }
@@ -1379,6 +1756,93 @@ h6 {
   }
   .lg\:bg-pink {
     background-color: #e91e63;
+  }
+  .lg\:text-transparent {
+    color: transparent;
+  }
+  .lg\:text-white {
+    color: #fff;
+  }
+  .lg\:text-snow {
+    color: #fffafa;
+  }
+  .lg\:text-ghostwhite {
+    color: #f8f8ff;
+  }
+  .lg\:text-whitesmoke {
+    color: #f5f5f5;
+  }
+  .lg\:text-black {
+    color: #000;
+  }
+  .lg\:text-gray-50 {
+    color: #f1f3f5;
+  }
+  .lg\:text-gray-100 {
+    color: #e2e7ec;
+  }
+  .lg\:text-gray-200 {
+    color: #c6ced8;
+  }
+  .lg\:text-gray-300 {
+    color: #a9b6c5;
+  }
+  .lg\:text-gray-400 {
+    color: #8d9db1;
+  }
+  .lg\:text-gray {
+    color: #70859e;
+  }
+  .lg\:text-gray-600 {
+    color: #65788e;
+  }
+  .lg\:text-gray-700 {
+    color: #4e5d6f;
+  }
+  .lg\:text-gray-800 {
+    color: #38434f;
+  }
+  .lg\:text-gray-900 {
+    color: #22282f;
+  }
+  .lg\:text-brown {
+    color: #795548;
+  }
+  .lg\:text-purple {
+    color: #673ab7;
+  }
+  .lg\:text-indigo {
+    color: #3f51b5;
+  }
+  .lg\:text-blue {
+    color: #2196f3;
+  }
+  .lg\:text-cyan {
+    color: #00bcd4;
+  }
+  .lg\:text-teal {
+    color: #009688;
+  }
+  .lg\:text-green {
+    color: #4caf50;
+  }
+  .lg\:text-lime {
+    color: #cddc39;
+  }
+  .lg\:text-yellow {
+    color: #ffeb3b;
+  }
+  .lg\:text-amber {
+    color: #ffc107;
+  }
+  .lg\:text-orange {
+    color: #ff5722;
+  }
+  .lg\:text-red {
+    color: #f44336;
+  }
+  .lg\:text-pink {
+    color: #e91e63;
   }
   .lg\:d-none {
     display: none;
@@ -1572,6 +2036,93 @@ h6 {
   .xl\:bg-pink {
     background-color: #e91e63;
   }
+  .xl\:text-transparent {
+    color: transparent;
+  }
+  .xl\:text-white {
+    color: #fff;
+  }
+  .xl\:text-snow {
+    color: #fffafa;
+  }
+  .xl\:text-ghostwhite {
+    color: #f8f8ff;
+  }
+  .xl\:text-whitesmoke {
+    color: #f5f5f5;
+  }
+  .xl\:text-black {
+    color: #000;
+  }
+  .xl\:text-gray-50 {
+    color: #f1f3f5;
+  }
+  .xl\:text-gray-100 {
+    color: #e2e7ec;
+  }
+  .xl\:text-gray-200 {
+    color: #c6ced8;
+  }
+  .xl\:text-gray-300 {
+    color: #a9b6c5;
+  }
+  .xl\:text-gray-400 {
+    color: #8d9db1;
+  }
+  .xl\:text-gray {
+    color: #70859e;
+  }
+  .xl\:text-gray-600 {
+    color: #65788e;
+  }
+  .xl\:text-gray-700 {
+    color: #4e5d6f;
+  }
+  .xl\:text-gray-800 {
+    color: #38434f;
+  }
+  .xl\:text-gray-900 {
+    color: #22282f;
+  }
+  .xl\:text-brown {
+    color: #795548;
+  }
+  .xl\:text-purple {
+    color: #673ab7;
+  }
+  .xl\:text-indigo {
+    color: #3f51b5;
+  }
+  .xl\:text-blue {
+    color: #2196f3;
+  }
+  .xl\:text-cyan {
+    color: #00bcd4;
+  }
+  .xl\:text-teal {
+    color: #009688;
+  }
+  .xl\:text-green {
+    color: #4caf50;
+  }
+  .xl\:text-lime {
+    color: #cddc39;
+  }
+  .xl\:text-yellow {
+    color: #ffeb3b;
+  }
+  .xl\:text-amber {
+    color: #ffc107;
+  }
+  .xl\:text-orange {
+    color: #ff5722;
+  }
+  .xl\:text-red {
+    color: #f44336;
+  }
+  .xl\:text-pink {
+    color: #e91e63;
+  }
   .xl\:d-none {
     display: none;
   }
@@ -1763,6 +2314,93 @@ h6 {
   }
   .xxl\:bg-pink {
     background-color: #e91e63;
+  }
+  .xxl\:text-transparent {
+    color: transparent;
+  }
+  .xxl\:text-white {
+    color: #fff;
+  }
+  .xxl\:text-snow {
+    color: #fffafa;
+  }
+  .xxl\:text-ghostwhite {
+    color: #f8f8ff;
+  }
+  .xxl\:text-whitesmoke {
+    color: #f5f5f5;
+  }
+  .xxl\:text-black {
+    color: #000;
+  }
+  .xxl\:text-gray-50 {
+    color: #f1f3f5;
+  }
+  .xxl\:text-gray-100 {
+    color: #e2e7ec;
+  }
+  .xxl\:text-gray-200 {
+    color: #c6ced8;
+  }
+  .xxl\:text-gray-300 {
+    color: #a9b6c5;
+  }
+  .xxl\:text-gray-400 {
+    color: #8d9db1;
+  }
+  .xxl\:text-gray {
+    color: #70859e;
+  }
+  .xxl\:text-gray-600 {
+    color: #65788e;
+  }
+  .xxl\:text-gray-700 {
+    color: #4e5d6f;
+  }
+  .xxl\:text-gray-800 {
+    color: #38434f;
+  }
+  .xxl\:text-gray-900 {
+    color: #22282f;
+  }
+  .xxl\:text-brown {
+    color: #795548;
+  }
+  .xxl\:text-purple {
+    color: #673ab7;
+  }
+  .xxl\:text-indigo {
+    color: #3f51b5;
+  }
+  .xxl\:text-blue {
+    color: #2196f3;
+  }
+  .xxl\:text-cyan {
+    color: #00bcd4;
+  }
+  .xxl\:text-teal {
+    color: #009688;
+  }
+  .xxl\:text-green {
+    color: #4caf50;
+  }
+  .xxl\:text-lime {
+    color: #cddc39;
+  }
+  .xxl\:text-yellow {
+    color: #ffeb3b;
+  }
+  .xxl\:text-amber {
+    color: #ffc107;
+  }
+  .xxl\:text-orange {
+    color: #ff5722;
+  }
+  .xxl\:text-red {
+    color: #f44336;
+  }
+  .xxl\:text-pink {
+    color: #e91e63;
   }
   .xxl\:d-none {
     display: none;
