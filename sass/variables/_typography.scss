@@ -3,12 +3,6 @@ $font-family-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
   Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
   "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-$text-align: (
-  "center": center,
-  "left": left,
-  "right": right,
-  "justify": justify,
-);
 $font-weight: (
   "100": 100,
   "200": 200,
@@ -22,6 +16,12 @@ $font-weight: (
 );
 
 $typographys: (
+  text-align: (
+    breakpoint: true,
+    property: text-align,
+    class: text,
+    values: center left right justify,
+  ),
   display: (
     breakpoint: true,
     property: display,

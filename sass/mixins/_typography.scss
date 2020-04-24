@@ -1,13 +1,3 @@
-// text align
-@mixin text-align($breakpoint: false, $breakpoint-type: null) {
-  @each $align, $value in $text-align {
-    $class-name: text-#{$align};
-    @include generate-class($class-name, $breakpoint, $breakpoint-type) {
-      text-align: $value;
-    }
-  }
-}
-
 // font weight
 @mixin font-weight($breakpoint: false, $breakpoint-type: null) {
   @each $weight, $value in $font-weight {
