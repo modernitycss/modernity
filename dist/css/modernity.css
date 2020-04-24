@@ -580,42 +580,6 @@ h6 {
   background-color: #e91e63;
 }
 
-.fw-100 {
-  font-weight: 100;
-}
-
-.fw-200 {
-  font-weight: 200;
-}
-
-.fw-300 {
-  font-weight: 300;
-}
-
-.fw-400 {
-  font-weight: 400;
-}
-
-.fw-500 {
-  font-weight: 500;
-}
-
-.fw-600 {
-  font-weight: 600;
-}
-
-.fw-700 {
-  font-weight: 700;
-}
-
-.fw-800 {
-  font-weight: 800;
-}
-
-.fw-900 {
-  font-weight: 900;
-}
-
 .text-lowercase {
   text-transform: lowercase;
 }
@@ -669,33 +633,6 @@ h6 {
 }
 
 @media (max-width: 575px) {
-  .xs\:fw-100 {
-    font-weight: 100;
-  }
-  .xs\:fw-200 {
-    font-weight: 200;
-  }
-  .xs\:fw-300 {
-    font-weight: 300;
-  }
-  .xs\:fw-400 {
-    font-weight: 400;
-  }
-  .xs\:fw-500 {
-    font-weight: 500;
-  }
-  .xs\:fw-600 {
-    font-weight: 600;
-  }
-  .xs\:fw-700 {
-    font-weight: 700;
-  }
-  .xs\:fw-800 {
-    font-weight: 800;
-  }
-  .xs\:fw-900 {
-    font-weight: 900;
-  }
   .xs\:text-lowercase {
     text-transform: lowercase;
   }
@@ -747,6 +684,33 @@ h6 {
   .xs\:text-justify {
     text-align: justify;
   }
+  .xs\:fw-100 {
+    font-weight: 100;
+  }
+  .xs\:fw-200 {
+    font-weight: 200;
+  }
+  .xs\:fw-300 {
+    font-weight: 300;
+  }
+  .xs\:fw-400 {
+    font-weight: 400;
+  }
+  .xs\:fw-500 {
+    font-weight: 500;
+  }
+  .xs\:fw-600 {
+    font-weight: 600;
+  }
+  .xs\:fw-700 {
+    font-weight: 700;
+  }
+  .xs\:fw-800 {
+    font-weight: 800;
+  }
+  .xs\:fw-900 {
+    font-weight: 900;
+  }
   .xs\:d-none {
     display: none;
   }
@@ -777,33 +741,6 @@ h6 {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .sm\:fw-100 {
-    font-weight: 100;
-  }
-  .sm\:fw-200 {
-    font-weight: 200;
-  }
-  .sm\:fw-300 {
-    font-weight: 300;
-  }
-  .sm\:fw-400 {
-    font-weight: 400;
-  }
-  .sm\:fw-500 {
-    font-weight: 500;
-  }
-  .sm\:fw-600 {
-    font-weight: 600;
-  }
-  .sm\:fw-700 {
-    font-weight: 700;
-  }
-  .sm\:fw-800 {
-    font-weight: 800;
-  }
-  .sm\:fw-900 {
-    font-weight: 900;
-  }
   .sm\:text-lowercase {
     text-transform: lowercase;
   }
@@ -855,6 +792,33 @@ h6 {
   .sm\:text-justify {
     text-align: justify;
   }
+  .sm\:fw-100 {
+    font-weight: 100;
+  }
+  .sm\:fw-200 {
+    font-weight: 200;
+  }
+  .sm\:fw-300 {
+    font-weight: 300;
+  }
+  .sm\:fw-400 {
+    font-weight: 400;
+  }
+  .sm\:fw-500 {
+    font-weight: 500;
+  }
+  .sm\:fw-600 {
+    font-weight: 600;
+  }
+  .sm\:fw-700 {
+    font-weight: 700;
+  }
+  .sm\:fw-800 {
+    font-weight: 800;
+  }
+  .sm\:fw-900 {
+    font-weight: 900;
+  }
   .sm\:d-none {
     display: none;
   }
@@ -885,33 +849,6 @@ h6 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .md\:fw-100 {
-    font-weight: 100;
-  }
-  .md\:fw-200 {
-    font-weight: 200;
-  }
-  .md\:fw-300 {
-    font-weight: 300;
-  }
-  .md\:fw-400 {
-    font-weight: 400;
-  }
-  .md\:fw-500 {
-    font-weight: 500;
-  }
-  .md\:fw-600 {
-    font-weight: 600;
-  }
-  .md\:fw-700 {
-    font-weight: 700;
-  }
-  .md\:fw-800 {
-    font-weight: 800;
-  }
-  .md\:fw-900 {
-    font-weight: 900;
-  }
   .md\:text-lowercase {
     text-transform: lowercase;
   }
@@ -963,6 +900,33 @@ h6 {
   .md\:text-justify {
     text-align: justify;
   }
+  .md\:fw-100 {
+    font-weight: 100;
+  }
+  .md\:fw-200 {
+    font-weight: 200;
+  }
+  .md\:fw-300 {
+    font-weight: 300;
+  }
+  .md\:fw-400 {
+    font-weight: 400;
+  }
+  .md\:fw-500 {
+    font-weight: 500;
+  }
+  .md\:fw-600 {
+    font-weight: 600;
+  }
+  .md\:fw-700 {
+    font-weight: 700;
+  }
+  .md\:fw-800 {
+    font-weight: 800;
+  }
+  .md\:fw-900 {
+    font-weight: 900;
+  }
   .md\:d-none {
     display: none;
   }
@@ -993,33 +957,6 @@ h6 {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .lg\:fw-100 {
-    font-weight: 100;
-  }
-  .lg\:fw-200 {
-    font-weight: 200;
-  }
-  .lg\:fw-300 {
-    font-weight: 300;
-  }
-  .lg\:fw-400 {
-    font-weight: 400;
-  }
-  .lg\:fw-500 {
-    font-weight: 500;
-  }
-  .lg\:fw-600 {
-    font-weight: 600;
-  }
-  .lg\:fw-700 {
-    font-weight: 700;
-  }
-  .lg\:fw-800 {
-    font-weight: 800;
-  }
-  .lg\:fw-900 {
-    font-weight: 900;
-  }
   .lg\:text-lowercase {
     text-transform: lowercase;
   }
@@ -1071,6 +1008,33 @@ h6 {
   .lg\:text-justify {
     text-align: justify;
   }
+  .lg\:fw-100 {
+    font-weight: 100;
+  }
+  .lg\:fw-200 {
+    font-weight: 200;
+  }
+  .lg\:fw-300 {
+    font-weight: 300;
+  }
+  .lg\:fw-400 {
+    font-weight: 400;
+  }
+  .lg\:fw-500 {
+    font-weight: 500;
+  }
+  .lg\:fw-600 {
+    font-weight: 600;
+  }
+  .lg\:fw-700 {
+    font-weight: 700;
+  }
+  .lg\:fw-800 {
+    font-weight: 800;
+  }
+  .lg\:fw-900 {
+    font-weight: 900;
+  }
   .lg\:d-none {
     display: none;
   }
@@ -1101,33 +1065,6 @@ h6 {
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .xl\:fw-100 {
-    font-weight: 100;
-  }
-  .xl\:fw-200 {
-    font-weight: 200;
-  }
-  .xl\:fw-300 {
-    font-weight: 300;
-  }
-  .xl\:fw-400 {
-    font-weight: 400;
-  }
-  .xl\:fw-500 {
-    font-weight: 500;
-  }
-  .xl\:fw-600 {
-    font-weight: 600;
-  }
-  .xl\:fw-700 {
-    font-weight: 700;
-  }
-  .xl\:fw-800 {
-    font-weight: 800;
-  }
-  .xl\:fw-900 {
-    font-weight: 900;
-  }
   .xl\:text-lowercase {
     text-transform: lowercase;
   }
@@ -1179,6 +1116,33 @@ h6 {
   .xl\:text-justify {
     text-align: justify;
   }
+  .xl\:fw-100 {
+    font-weight: 100;
+  }
+  .xl\:fw-200 {
+    font-weight: 200;
+  }
+  .xl\:fw-300 {
+    font-weight: 300;
+  }
+  .xl\:fw-400 {
+    font-weight: 400;
+  }
+  .xl\:fw-500 {
+    font-weight: 500;
+  }
+  .xl\:fw-600 {
+    font-weight: 600;
+  }
+  .xl\:fw-700 {
+    font-weight: 700;
+  }
+  .xl\:fw-800 {
+    font-weight: 800;
+  }
+  .xl\:fw-900 {
+    font-weight: 900;
+  }
   .xl\:d-none {
     display: none;
   }
@@ -1209,33 +1173,6 @@ h6 {
 }
 
 @media (min-width: 1400) {
-  .xxl\:fw-100 {
-    font-weight: 100;
-  }
-  .xxl\:fw-200 {
-    font-weight: 200;
-  }
-  .xxl\:fw-300 {
-    font-weight: 300;
-  }
-  .xxl\:fw-400 {
-    font-weight: 400;
-  }
-  .xxl\:fw-500 {
-    font-weight: 500;
-  }
-  .xxl\:fw-600 {
-    font-weight: 600;
-  }
-  .xxl\:fw-700 {
-    font-weight: 700;
-  }
-  .xxl\:fw-800 {
-    font-weight: 800;
-  }
-  .xxl\:fw-900 {
-    font-weight: 900;
-  }
   .xxl\:text-lowercase {
     text-transform: lowercase;
   }
@@ -1286,6 +1223,33 @@ h6 {
   }
   .xxl\:text-justify {
     text-align: justify;
+  }
+  .xxl\:fw-100 {
+    font-weight: 100;
+  }
+  .xxl\:fw-200 {
+    font-weight: 200;
+  }
+  .xxl\:fw-300 {
+    font-weight: 300;
+  }
+  .xxl\:fw-400 {
+    font-weight: 400;
+  }
+  .xxl\:fw-500 {
+    font-weight: 500;
+  }
+  .xxl\:fw-600 {
+    font-weight: 600;
+  }
+  .xxl\:fw-700 {
+    font-weight: 700;
+  }
+  .xxl\:fw-800 {
+    font-weight: 800;
+  }
+  .xxl\:fw-900 {
+    font-weight: 900;
   }
   .xxl\:d-none {
     display: none;

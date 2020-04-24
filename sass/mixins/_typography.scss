@@ -1,13 +1,3 @@
-// font weight
-@mixin font-weight($breakpoint: false, $breakpoint-type: null) {
-  @each $weight, $value in $font-weight {
-    $class-name: fw-#{$weight};
-    @include generate-class($class-name, $breakpoint, $breakpoint-type) {
-      font-weight: $value;
-    }
-  }
-}
-
 // text transform
 @mixin text-transform($breakpoint: false, $breakpoint-type: null) {
   @each $transform, $value in $text-transform {
