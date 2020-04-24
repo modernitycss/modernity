@@ -81,3 +81,12 @@ $theme-text-colors: (
   "red": $white,
   "pink": $white,
 ) !default;
+
+$colors: (
+  background: (
+    breakpoint: true,
+    property: background-color,
+    class: bg,
+    values: $theme-colors,
+  ),
+);
