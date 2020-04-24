@@ -1,0 +1,22 @@
+// breakpoint for media query
+// xs - smartphone
+// sm - tablets
+// md - tablets landscape and small desktops,
+// lg - desktop
+// xl - large desktops
+$breakpoints: (
+  "xs": null,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+  "xxl": 1400,
+);
+$breakpoints-max: (
+  "xs": 575px,
+  "sm": 767px,
+  "md": 991px,
+  "lg": 1199px,
+  "xl": 1399px,
+  "xxl": null,
+);
