@@ -8,5 +8,19 @@
     @include font-weight(true, $breakpoint-type);
     @include text-transform(true, $breakpoint-type);
     @include font-size(true, $breakpoint-type);
+
+    @each $typography, $typography-value in $typographys {
+      $breakpoint: map-get($typography-value, breakpoint);
+      $class: map-get($typography-value, class);
+      $property: map-get($typography-value, property);
+      $values: map-get($typography-value, values);
+
+      @each $value in $values {
+        $class-name: #{$class}-#{$value};
+        @include generate-class($class-name, $breakpoint, $breakpoint-type) {
+          #{$property}: $value;
+        }
+      }
+    }
   }
 }
