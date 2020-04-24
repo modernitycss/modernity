@@ -425,37 +425,31 @@ h6 {
   margin: 0 auto;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 576px) {
   .container {
     width: 100%;
+    max-width: 546px;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .container {
     width: 100%;
-    max-width: 570px;
+    max-width: 728px;
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   .container {
     width: 100%;
-    max-width: 860px;
+    max-width: 942px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
     width: 100%;
-    max-width: 1150px;
-  }
-}
-
-@media (min-width: 1800px) {
-  .container {
-    width: 100%;
-    max-width: 1400px;
+    max-width: 800px;
   }
 }
 
@@ -684,7 +678,7 @@ h6 {
   font-size: 4rem;
 }
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (max-width: 575px) {
   .xs\:text-center {
     text-align: center;
   }
@@ -765,7 +759,7 @@ h6 {
   }
 }
 
-@media (min-width: 600px) and (max-width: 899px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .sm\:text-center {
     text-align: center;
   }
@@ -846,7 +840,7 @@ h6 {
   }
 }
 
-@media (min-width: 900px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .md\:text-center {
     text-align: center;
   }
@@ -927,7 +921,7 @@ h6 {
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1799px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .lg\:text-center {
     text-align: center;
   }
@@ -1008,7 +1002,7 @@ h6 {
   }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1200px) {
   .xl\:text-center {
     text-align: center;
   }

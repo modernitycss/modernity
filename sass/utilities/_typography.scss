@@ -11,7 +11,7 @@
 @include font-size;
 
 @each $bp, $bp-value in $breakpoints {
-  @include genbp($bp-value, map-get($breakpoints-max, $bp)) {
+  @include media-breakpoint($bp-value, map-get($breakpoints-max, $bp)) {
     // text align
     @include text-align(true, $bp);
 

@@ -4,7 +4,7 @@
   margin: 0 auto;
 
   @each $bp, $value in $breakpoints {
-    @include genbp($value) {
+    @include media-breakpoint-min($value) {
       width: 100%;
       max-width: map-get($container-sizes, $bp);
     }

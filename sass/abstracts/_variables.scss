@@ -129,18 +129,18 @@ $font-size: (
 // lg - desktop
 // xl - large desktops
 $breakpoints: (
-  "xs": 320px,
-  "sm": 600px,
-  "md": 900px,
-  "lg": 1200px,
-  "xl": 1800px,
+  "xs": null,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
 );
 $breakpoints-max: (
-  "xs": 599px,
-  "sm": 899px,
-  "md": 1199px,
-  "lg": 1799px,
-  "xl": "null",
+  "xs": 575px,
+  "sm": 767px,
+  "md": 991px,
+  "lg": 1199px,
+  "xl": null,
 );
 
 // containers
