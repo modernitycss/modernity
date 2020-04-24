@@ -7,6 +7,15 @@
   }
 }
 
+// Media of the maximum breakpoint width
+@mixin media-breakpoint-max($max) {
+  @if $max != null {
+    @media (max-width: $max) {
+      @content;
+    }
+  }
+}
+
 // Media between the breakpoint's minimum and maximum widths.
 @mixin media-breakpoint($min, $max: null) {
   @if $min != null and $max != null {
