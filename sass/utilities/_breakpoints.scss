@@ -1,0 +1,18 @@
+@each $breakpoint-type, $breakpoint-value in $breakpoints {
+  @include media-breakpoint(
+    $breakpoint-value,
+    map-get($breakpoints-max, $breakpoint-type)
+  ) {
+    // text align
+    @include text-align(true, $breakpoint-type);
+
+    // font weight
+    @include font-weight(true, $breakpoint-type);
+
+    // text transform
+    @include text-transform(true, $breakpoint-type);
+
+    // font size
+    @include font-size(true, $breakpoint-type);
+  }
+}
