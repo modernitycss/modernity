@@ -1,3 +1,4 @@
+// generate class name for breakpoint and non breakpoint
 @mixin generate-class($class-name, $breakpoint: false, $breakpoint-type: null) {
   @debug $breakpoint;
   @if $breakpoint {
