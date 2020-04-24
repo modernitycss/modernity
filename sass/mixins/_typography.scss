@@ -1,9 +1,0 @@
-// font size
-@mixin font-size($breakpoint: false, $breakpoint-type: null) {
-  @each $size, $value in $font-size {
-    $class-name: f-#{$size};
-    @include generate-class($class-name, $breakpoint, $breakpoint-type) {
-      font-size: $value;
-    }
-  }
-}

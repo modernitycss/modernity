@@ -4,8 +4,6 @@
     map-get($breakpoints-max, $breakpoint-type)
   ) {
     // typography
-    @include font-size(true, $breakpoint-type);
-
     @include generate-utility($typographys, true, $breakpoint-type);
   }
 }

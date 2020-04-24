@@ -580,77 +580,7 @@ h6 {
   background-color: #e91e63;
 }
 
-.f-12 {
-  font-size: 0.75rem;
-}
-
-.f-14 {
-  font-size: 0.875rem;
-}
-
-.f-16 {
-  font-size: 1rem;
-}
-
-.f-18 {
-  font-size: 1.125rem;
-}
-
-.f-20 {
-  font-size: 1.25rem;
-}
-
-.f-24 {
-  font-size: 1.5rem;
-}
-
-.f-30 {
-  font-size: 1.875rem;
-}
-
-.f-36 {
-  font-size: 2.25rem;
-}
-
-.f-48 {
-  font-size: 3rem;
-}
-
-.f-64 {
-  font-size: 4rem;
-}
-
 @media (max-width: 575px) {
-  .xs\:f-12 {
-    font-size: 0.75rem;
-  }
-  .xs\:f-14 {
-    font-size: 0.875rem;
-  }
-  .xs\:f-16 {
-    font-size: 1rem;
-  }
-  .xs\:f-18 {
-    font-size: 1.125rem;
-  }
-  .xs\:f-20 {
-    font-size: 1.25rem;
-  }
-  .xs\:f-24 {
-    font-size: 1.5rem;
-  }
-  .xs\:f-30 {
-    font-size: 1.875rem;
-  }
-  .xs\:f-36 {
-    font-size: 2.25rem;
-  }
-  .xs\:f-48 {
-    font-size: 3rem;
-  }
-  .xs\:f-64 {
-    font-size: 4rem;
-  }
   .xs\:text-center {
     text-align: center;
   }
@@ -699,6 +629,36 @@ h6 {
   .xs\:text-capitalize {
     text-transform: capitalize;
   }
+  .xs\:text-12 {
+    font-size: 0.75rem;
+  }
+  .xs\:text-14 {
+    font-size: 0.875rem;
+  }
+  .xs\:text-16 {
+    font-size: 1rem;
+  }
+  .xs\:text-18 {
+    font-size: 1.125rem;
+  }
+  .xs\:text-20 {
+    font-size: 1.25rem;
+  }
+  .xs\:text-24 {
+    font-size: 1.5rem;
+  }
+  .xs\:text-30 {
+    font-size: 1.875rem;
+  }
+  .xs\:text-36 {
+    font-size: 2.25rem;
+  }
+  .xs\:text-48 {
+    font-size: 3rem;
+  }
+  .xs\:text-64 {
+    font-size: 4rem;
+  }
   .xs\:d-none {
     display: none;
   }
@@ -721,44 +681,11 @@ h6 {
     display: table-cell;
   }
   .xs\:d-flex {
-    display: flex;
-  }
-  .xs\:d-inline-flex {
-    display: inline-flex;
+    display: "inline-flex";
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .sm\:f-12 {
-    font-size: 0.75rem;
-  }
-  .sm\:f-14 {
-    font-size: 0.875rem;
-  }
-  .sm\:f-16 {
-    font-size: 1rem;
-  }
-  .sm\:f-18 {
-    font-size: 1.125rem;
-  }
-  .sm\:f-20 {
-    font-size: 1.25rem;
-  }
-  .sm\:f-24 {
-    font-size: 1.5rem;
-  }
-  .sm\:f-30 {
-    font-size: 1.875rem;
-  }
-  .sm\:f-36 {
-    font-size: 2.25rem;
-  }
-  .sm\:f-48 {
-    font-size: 3rem;
-  }
-  .sm\:f-64 {
-    font-size: 4rem;
-  }
   .sm\:text-center {
     text-align: center;
   }
@@ -807,6 +734,36 @@ h6 {
   .sm\:text-capitalize {
     text-transform: capitalize;
   }
+  .sm\:text-12 {
+    font-size: 0.75rem;
+  }
+  .sm\:text-14 {
+    font-size: 0.875rem;
+  }
+  .sm\:text-16 {
+    font-size: 1rem;
+  }
+  .sm\:text-18 {
+    font-size: 1.125rem;
+  }
+  .sm\:text-20 {
+    font-size: 1.25rem;
+  }
+  .sm\:text-24 {
+    font-size: 1.5rem;
+  }
+  .sm\:text-30 {
+    font-size: 1.875rem;
+  }
+  .sm\:text-36 {
+    font-size: 2.25rem;
+  }
+  .sm\:text-48 {
+    font-size: 3rem;
+  }
+  .sm\:text-64 {
+    font-size: 4rem;
+  }
   .sm\:d-none {
     display: none;
   }
@@ -829,44 +786,11 @@ h6 {
     display: table-cell;
   }
   .sm\:d-flex {
-    display: flex;
-  }
-  .sm\:d-inline-flex {
-    display: inline-flex;
+    display: "inline-flex";
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .md\:f-12 {
-    font-size: 0.75rem;
-  }
-  .md\:f-14 {
-    font-size: 0.875rem;
-  }
-  .md\:f-16 {
-    font-size: 1rem;
-  }
-  .md\:f-18 {
-    font-size: 1.125rem;
-  }
-  .md\:f-20 {
-    font-size: 1.25rem;
-  }
-  .md\:f-24 {
-    font-size: 1.5rem;
-  }
-  .md\:f-30 {
-    font-size: 1.875rem;
-  }
-  .md\:f-36 {
-    font-size: 2.25rem;
-  }
-  .md\:f-48 {
-    font-size: 3rem;
-  }
-  .md\:f-64 {
-    font-size: 4rem;
-  }
   .md\:text-center {
     text-align: center;
   }
@@ -915,6 +839,36 @@ h6 {
   .md\:text-capitalize {
     text-transform: capitalize;
   }
+  .md\:text-12 {
+    font-size: 0.75rem;
+  }
+  .md\:text-14 {
+    font-size: 0.875rem;
+  }
+  .md\:text-16 {
+    font-size: 1rem;
+  }
+  .md\:text-18 {
+    font-size: 1.125rem;
+  }
+  .md\:text-20 {
+    font-size: 1.25rem;
+  }
+  .md\:text-24 {
+    font-size: 1.5rem;
+  }
+  .md\:text-30 {
+    font-size: 1.875rem;
+  }
+  .md\:text-36 {
+    font-size: 2.25rem;
+  }
+  .md\:text-48 {
+    font-size: 3rem;
+  }
+  .md\:text-64 {
+    font-size: 4rem;
+  }
   .md\:d-none {
     display: none;
   }
@@ -937,44 +891,11 @@ h6 {
     display: table-cell;
   }
   .md\:d-flex {
-    display: flex;
-  }
-  .md\:d-inline-flex {
-    display: inline-flex;
+    display: "inline-flex";
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .lg\:f-12 {
-    font-size: 0.75rem;
-  }
-  .lg\:f-14 {
-    font-size: 0.875rem;
-  }
-  .lg\:f-16 {
-    font-size: 1rem;
-  }
-  .lg\:f-18 {
-    font-size: 1.125rem;
-  }
-  .lg\:f-20 {
-    font-size: 1.25rem;
-  }
-  .lg\:f-24 {
-    font-size: 1.5rem;
-  }
-  .lg\:f-30 {
-    font-size: 1.875rem;
-  }
-  .lg\:f-36 {
-    font-size: 2.25rem;
-  }
-  .lg\:f-48 {
-    font-size: 3rem;
-  }
-  .lg\:f-64 {
-    font-size: 4rem;
-  }
   .lg\:text-center {
     text-align: center;
   }
@@ -1023,6 +944,36 @@ h6 {
   .lg\:text-capitalize {
     text-transform: capitalize;
   }
+  .lg\:text-12 {
+    font-size: 0.75rem;
+  }
+  .lg\:text-14 {
+    font-size: 0.875rem;
+  }
+  .lg\:text-16 {
+    font-size: 1rem;
+  }
+  .lg\:text-18 {
+    font-size: 1.125rem;
+  }
+  .lg\:text-20 {
+    font-size: 1.25rem;
+  }
+  .lg\:text-24 {
+    font-size: 1.5rem;
+  }
+  .lg\:text-30 {
+    font-size: 1.875rem;
+  }
+  .lg\:text-36 {
+    font-size: 2.25rem;
+  }
+  .lg\:text-48 {
+    font-size: 3rem;
+  }
+  .lg\:text-64 {
+    font-size: 4rem;
+  }
   .lg\:d-none {
     display: none;
   }
@@ -1045,44 +996,11 @@ h6 {
     display: table-cell;
   }
   .lg\:d-flex {
-    display: flex;
-  }
-  .lg\:d-inline-flex {
-    display: inline-flex;
+    display: "inline-flex";
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .xl\:f-12 {
-    font-size: 0.75rem;
-  }
-  .xl\:f-14 {
-    font-size: 0.875rem;
-  }
-  .xl\:f-16 {
-    font-size: 1rem;
-  }
-  .xl\:f-18 {
-    font-size: 1.125rem;
-  }
-  .xl\:f-20 {
-    font-size: 1.25rem;
-  }
-  .xl\:f-24 {
-    font-size: 1.5rem;
-  }
-  .xl\:f-30 {
-    font-size: 1.875rem;
-  }
-  .xl\:f-36 {
-    font-size: 2.25rem;
-  }
-  .xl\:f-48 {
-    font-size: 3rem;
-  }
-  .xl\:f-64 {
-    font-size: 4rem;
-  }
   .xl\:text-center {
     text-align: center;
   }
@@ -1131,6 +1049,36 @@ h6 {
   .xl\:text-capitalize {
     text-transform: capitalize;
   }
+  .xl\:text-12 {
+    font-size: 0.75rem;
+  }
+  .xl\:text-14 {
+    font-size: 0.875rem;
+  }
+  .xl\:text-16 {
+    font-size: 1rem;
+  }
+  .xl\:text-18 {
+    font-size: 1.125rem;
+  }
+  .xl\:text-20 {
+    font-size: 1.25rem;
+  }
+  .xl\:text-24 {
+    font-size: 1.5rem;
+  }
+  .xl\:text-30 {
+    font-size: 1.875rem;
+  }
+  .xl\:text-36 {
+    font-size: 2.25rem;
+  }
+  .xl\:text-48 {
+    font-size: 3rem;
+  }
+  .xl\:text-64 {
+    font-size: 4rem;
+  }
   .xl\:d-none {
     display: none;
   }
@@ -1153,44 +1101,11 @@ h6 {
     display: table-cell;
   }
   .xl\:d-flex {
-    display: flex;
-  }
-  .xl\:d-inline-flex {
-    display: inline-flex;
+    display: "inline-flex";
   }
 }
 
 @media (min-width: 1400) {
-  .xxl\:f-12 {
-    font-size: 0.75rem;
-  }
-  .xxl\:f-14 {
-    font-size: 0.875rem;
-  }
-  .xxl\:f-16 {
-    font-size: 1rem;
-  }
-  .xxl\:f-18 {
-    font-size: 1.125rem;
-  }
-  .xxl\:f-20 {
-    font-size: 1.25rem;
-  }
-  .xxl\:f-24 {
-    font-size: 1.5rem;
-  }
-  .xxl\:f-30 {
-    font-size: 1.875rem;
-  }
-  .xxl\:f-36 {
-    font-size: 2.25rem;
-  }
-  .xxl\:f-48 {
-    font-size: 3rem;
-  }
-  .xxl\:f-64 {
-    font-size: 4rem;
-  }
   .xxl\:text-center {
     text-align: center;
   }
@@ -1239,6 +1154,36 @@ h6 {
   .xxl\:text-capitalize {
     text-transform: capitalize;
   }
+  .xxl\:text-12 {
+    font-size: 0.75rem;
+  }
+  .xxl\:text-14 {
+    font-size: 0.875rem;
+  }
+  .xxl\:text-16 {
+    font-size: 1rem;
+  }
+  .xxl\:text-18 {
+    font-size: 1.125rem;
+  }
+  .xxl\:text-20 {
+    font-size: 1.25rem;
+  }
+  .xxl\:text-24 {
+    font-size: 1.5rem;
+  }
+  .xxl\:text-30 {
+    font-size: 1.875rem;
+  }
+  .xxl\:text-36 {
+    font-size: 2.25rem;
+  }
+  .xxl\:text-48 {
+    font-size: 3rem;
+  }
+  .xxl\:text-64 {
+    font-size: 4rem;
+  }
   .xxl\:d-none {
     display: none;
   }
@@ -1261,10 +1206,7 @@ h6 {
     display: table-cell;
   }
   .xxl\:d-flex {
-    display: flex;
-  }
-  .xxl\:d-inline-flex {
-    display: inline-flex;
+    display: "inline-flex";
   }
 }
 

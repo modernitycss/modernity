@@ -8,9 +8,8 @@
     $class: map-get($utility-value, class);
     $property: map-get($utility-value, property);
     $values: map-get($utility-value, values);
-
-    @each $value in $values {
-      $class-name: #{$class}-#{$value};
+    @each $key, $value in $values {
+      $class-name: #{$class}-#{$key};
       @include generate-class($class-name, $breakpoint, $breakpoint-type) {
         #{$property}: $value;
       }
