@@ -3,6 +3,9 @@
     $breakpoint-value,
     map-get($breakpoints-max, $breakpoint-type)
   ) {
+    // display
+    @include generate-utility($displays, true, $breakpoint-type);
+
     // typography
     @include generate-utility($typographys, true, $breakpoint-type);
   }

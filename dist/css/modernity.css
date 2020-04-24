@@ -580,6 +580,38 @@ h6 {
   background-color: #e91e63;
 }
 
+.\:d-none {
+  display: none;
+}
+
+.\:d-inline {
+  display: inline;
+}
+
+.\:d-inline-block {
+  display: inline-block;
+}
+
+.\:d-block {
+  display: block;
+}
+
+.\:d-table {
+  display: table;
+}
+
+.\:d-table-row {
+  display: table-row;
+}
+
+.\:d-table-cell {
+  display: table-cell;
+}
+
+.\:d-flex {
+  display: "inline-flex";
+}
+
 .\:text-center {
   text-align: center;
 }
@@ -684,39 +716,31 @@ h6 {
   font-size: 4rem;
 }
 
-.\:d-none {
-  display: none;
-}
-
-.\:d-inline {
-  display: inline;
-}
-
-.\:d-inline-block {
-  display: inline-block;
-}
-
-.\:d-block {
-  display: block;
-}
-
-.\:d-table {
-  display: table;
-}
-
-.\:d-table-row {
-  display: table-row;
-}
-
-.\:d-table-cell {
-  display: table-cell;
-}
-
-.\:d-flex {
-  display: "inline-flex";
-}
-
 @media (max-width: 575px) {
+  .xs\:d-none {
+    display: none;
+  }
+  .xs\:d-inline {
+    display: inline;
+  }
+  .xs\:d-inline-block {
+    display: inline-block;
+  }
+  .xs\:d-block {
+    display: block;
+  }
+  .xs\:d-table {
+    display: table;
+  }
+  .xs\:d-table-row {
+    display: table-row;
+  }
+  .xs\:d-table-cell {
+    display: table-cell;
+  }
+  .xs\:d-flex {
+    display: "inline-flex";
+  }
   .xs\:text-center {
     text-align: center;
   }
@@ -795,33 +819,33 @@ h6 {
   .xs\:text-64 {
     font-size: 4rem;
   }
-  .xs\:d-none {
-    display: none;
-  }
-  .xs\:d-inline {
-    display: inline;
-  }
-  .xs\:d-inline-block {
-    display: inline-block;
-  }
-  .xs\:d-block {
-    display: block;
-  }
-  .xs\:d-table {
-    display: table;
-  }
-  .xs\:d-table-row {
-    display: table-row;
-  }
-  .xs\:d-table-cell {
-    display: table-cell;
-  }
-  .xs\:d-flex {
-    display: "inline-flex";
-  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  .sm\:d-none {
+    display: none;
+  }
+  .sm\:d-inline {
+    display: inline;
+  }
+  .sm\:d-inline-block {
+    display: inline-block;
+  }
+  .sm\:d-block {
+    display: block;
+  }
+  .sm\:d-table {
+    display: table;
+  }
+  .sm\:d-table-row {
+    display: table-row;
+  }
+  .sm\:d-table-cell {
+    display: table-cell;
+  }
+  .sm\:d-flex {
+    display: "inline-flex";
+  }
   .sm\:text-center {
     text-align: center;
   }
@@ -900,33 +924,33 @@ h6 {
   .sm\:text-64 {
     font-size: 4rem;
   }
-  .sm\:d-none {
-    display: none;
-  }
-  .sm\:d-inline {
-    display: inline;
-  }
-  .sm\:d-inline-block {
-    display: inline-block;
-  }
-  .sm\:d-block {
-    display: block;
-  }
-  .sm\:d-table {
-    display: table;
-  }
-  .sm\:d-table-row {
-    display: table-row;
-  }
-  .sm\:d-table-cell {
-    display: table-cell;
-  }
-  .sm\:d-flex {
-    display: "inline-flex";
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .md\:d-none {
+    display: none;
+  }
+  .md\:d-inline {
+    display: inline;
+  }
+  .md\:d-inline-block {
+    display: inline-block;
+  }
+  .md\:d-block {
+    display: block;
+  }
+  .md\:d-table {
+    display: table;
+  }
+  .md\:d-table-row {
+    display: table-row;
+  }
+  .md\:d-table-cell {
+    display: table-cell;
+  }
+  .md\:d-flex {
+    display: "inline-flex";
+  }
   .md\:text-center {
     text-align: center;
   }
@@ -1005,33 +1029,33 @@ h6 {
   .md\:text-64 {
     font-size: 4rem;
   }
-  .md\:d-none {
-    display: none;
-  }
-  .md\:d-inline {
-    display: inline;
-  }
-  .md\:d-inline-block {
-    display: inline-block;
-  }
-  .md\:d-block {
-    display: block;
-  }
-  .md\:d-table {
-    display: table;
-  }
-  .md\:d-table-row {
-    display: table-row;
-  }
-  .md\:d-table-cell {
-    display: table-cell;
-  }
-  .md\:d-flex {
-    display: "inline-flex";
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .lg\:d-none {
+    display: none;
+  }
+  .lg\:d-inline {
+    display: inline;
+  }
+  .lg\:d-inline-block {
+    display: inline-block;
+  }
+  .lg\:d-block {
+    display: block;
+  }
+  .lg\:d-table {
+    display: table;
+  }
+  .lg\:d-table-row {
+    display: table-row;
+  }
+  .lg\:d-table-cell {
+    display: table-cell;
+  }
+  .lg\:d-flex {
+    display: "inline-flex";
+  }
   .lg\:text-center {
     text-align: center;
   }
@@ -1110,33 +1134,33 @@ h6 {
   .lg\:text-64 {
     font-size: 4rem;
   }
-  .lg\:d-none {
-    display: none;
-  }
-  .lg\:d-inline {
-    display: inline;
-  }
-  .lg\:d-inline-block {
-    display: inline-block;
-  }
-  .lg\:d-block {
-    display: block;
-  }
-  .lg\:d-table {
-    display: table;
-  }
-  .lg\:d-table-row {
-    display: table-row;
-  }
-  .lg\:d-table-cell {
-    display: table-cell;
-  }
-  .lg\:d-flex {
-    display: "inline-flex";
-  }
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
+  .xl\:d-none {
+    display: none;
+  }
+  .xl\:d-inline {
+    display: inline;
+  }
+  .xl\:d-inline-block {
+    display: inline-block;
+  }
+  .xl\:d-block {
+    display: block;
+  }
+  .xl\:d-table {
+    display: table;
+  }
+  .xl\:d-table-row {
+    display: table-row;
+  }
+  .xl\:d-table-cell {
+    display: table-cell;
+  }
+  .xl\:d-flex {
+    display: "inline-flex";
+  }
   .xl\:text-center {
     text-align: center;
   }
@@ -1215,33 +1239,33 @@ h6 {
   .xl\:text-64 {
     font-size: 4rem;
   }
-  .xl\:d-none {
-    display: none;
-  }
-  .xl\:d-inline {
-    display: inline;
-  }
-  .xl\:d-inline-block {
-    display: inline-block;
-  }
-  .xl\:d-block {
-    display: block;
-  }
-  .xl\:d-table {
-    display: table;
-  }
-  .xl\:d-table-row {
-    display: table-row;
-  }
-  .xl\:d-table-cell {
-    display: table-cell;
-  }
-  .xl\:d-flex {
-    display: "inline-flex";
-  }
 }
 
 @media (min-width: 1400) {
+  .xxl\:d-none {
+    display: none;
+  }
+  .xxl\:d-inline {
+    display: inline;
+  }
+  .xxl\:d-inline-block {
+    display: inline-block;
+  }
+  .xxl\:d-block {
+    display: block;
+  }
+  .xxl\:d-table {
+    display: table;
+  }
+  .xxl\:d-table-row {
+    display: table-row;
+  }
+  .xxl\:d-table-cell {
+    display: table-cell;
+  }
+  .xxl\:d-flex {
+    display: "inline-flex";
+  }
   .xxl\:text-center {
     text-align: center;
   }
@@ -1319,30 +1343,6 @@ h6 {
   }
   .xxl\:text-64 {
     font-size: 4rem;
-  }
-  .xxl\:d-none {
-    display: none;
-  }
-  .xxl\:d-inline {
-    display: inline;
-  }
-  .xxl\:d-inline-block {
-    display: inline-block;
-  }
-  .xxl\:d-block {
-    display: block;
-  }
-  .xxl\:d-table {
-    display: table;
-  }
-  .xxl\:d-table-row {
-    display: table-row;
-  }
-  .xxl\:d-table-cell {
-    display: table-cell;
-  }
-  .xxl\:d-flex {
-    display: "inline-flex";
   }
 }
 
