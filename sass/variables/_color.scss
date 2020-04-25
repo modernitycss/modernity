@@ -5,7 +5,16 @@ $snow: #fffafa;
 $ghostwhite: #f8f8ff;
 $whitesmoke: #f5f5f5;
 $black: #000 !default;
-$brown: #795548 !default;
+
+$brown-100: #ecd9c5 !default;
+$brown-200: #e0bf9f !default;
+$brown-300: #d3a678 !default;
+$brown-400: #c68c52 !default;
+$brown: #ad7339 !default;
+$brown-600: #87592c !default;
+$brown-700: #60401f !default;
+$brown-800: #3a2613 !default;
+$brown-900: #2a1c0e !default;
 
 $gray-100: #e2e7ec !default;
 $gray-200: #c6ced8 !default;
@@ -55,7 +64,15 @@ $theme-colors: (
   "gray-700": $gray-700,
   "gray-800": $gray-800,
   "gray-900": $gray-900,
+  "brown-100": $brown-100,
+  "brown-200": $brown-200,
+  "brown-300": $brown-300,
+  "brown-400": $brown-400,
   "brown": $brown,
+  "brown-600": $brown-600,
+  "brown-700": $brown-700,
+  "brown-800": $brown-800,
+  "brown-900": $brown-900,
   "purple": $purple,
   "indigo": $indigo,
   "blue": $blue,
