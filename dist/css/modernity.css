@@ -153,16 +153,6 @@ h6 {
   background-color: #f2f2f2;
 }
 
-.btn-snow {
-  background-color: #fffafa;
-  border: 0.1rem solid #e2e8f0;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.btn-snow:hover {
-  background-color: #ffe1e1;
-}
-
 .btn-ghostwhite {
   background-color: #f8f8ff;
   border: 0.1rem solid #e2e8f0;
@@ -895,10 +885,6 @@ h6 {
   background-color: #fff;
 }
 
-.bg-snow {
-  background-color: #fffafa;
-}
-
 .bg-ghostwhite {
   background-color: #f8f8ff;
 }
@@ -1197,10 +1183,6 @@ h6 {
 
 .text-white {
   color: #fff;
-}
-
-.text-snow {
-  color: #fffafa;
 }
 
 .text-ghostwhite {
@@ -1638,9 +1620,6 @@ h6 {
   .xs\:bg-white {
     background-color: #fff;
   }
-  .xs\:bg-snow {
-    background-color: #fffafa;
-  }
   .xs\:bg-ghostwhite {
     background-color: #f8f8ff;
   }
@@ -1865,9 +1844,6 @@ h6 {
   }
   .xs\:text-white {
     color: #fff;
-  }
-  .xs\:text-snow {
-    color: #fffafa;
   }
   .xs\:text-ghostwhite {
     color: #f8f8ff;
@@ -2199,9 +2175,6 @@ h6 {
   .sm\:bg-white {
     background-color: #fff;
   }
-  .sm\:bg-snow {
-    background-color: #fffafa;
-  }
   .sm\:bg-ghostwhite {
     background-color: #f8f8ff;
   }
@@ -2426,9 +2399,6 @@ h6 {
   }
   .sm\:text-white {
     color: #fff;
-  }
-  .sm\:text-snow {
-    color: #fffafa;
   }
   .sm\:text-ghostwhite {
     color: #f8f8ff;
@@ -2760,9 +2730,6 @@ h6 {
   .md\:bg-white {
     background-color: #fff;
   }
-  .md\:bg-snow {
-    background-color: #fffafa;
-  }
   .md\:bg-ghostwhite {
     background-color: #f8f8ff;
   }
@@ -2987,9 +2954,6 @@ h6 {
   }
   .md\:text-white {
     color: #fff;
-  }
-  .md\:text-snow {
-    color: #fffafa;
   }
   .md\:text-ghostwhite {
     color: #f8f8ff;
@@ -3321,9 +3285,6 @@ h6 {
   .lg\:bg-white {
     background-color: #fff;
   }
-  .lg\:bg-snow {
-    background-color: #fffafa;
-  }
   .lg\:bg-ghostwhite {
     background-color: #f8f8ff;
   }
@@ -3548,9 +3509,6 @@ h6 {
   }
   .lg\:text-white {
     color: #fff;
-  }
-  .lg\:text-snow {
-    color: #fffafa;
   }
   .lg\:text-ghostwhite {
     color: #f8f8ff;
@@ -3882,9 +3840,6 @@ h6 {
   .xl\:bg-white {
     background-color: #fff;
   }
-  .xl\:bg-snow {
-    background-color: #fffafa;
-  }
   .xl\:bg-ghostwhite {
     background-color: #f8f8ff;
   }
@@ -4109,9 +4064,6 @@ h6 {
   }
   .xl\:text-white {
     color: #fff;
-  }
-  .xl\:text-snow {
-    color: #fffafa;
   }
   .xl\:text-ghostwhite {
     color: #f8f8ff;
@@ -4443,9 +4395,6 @@ h6 {
   .xxl\:bg-white {
     background-color: #fff;
   }
-  .xxl\:bg-snow {
-    background-color: #fffafa;
-  }
   .xxl\:bg-ghostwhite {
     background-color: #f8f8ff;
   }
@@ -4670,9 +4619,6 @@ h6 {
   }
   .xxl\:text-white {
     color: #fff;
-  }
-  .xxl\:text-snow {
-    color: #fffafa;
   }
   .xxl\:text-ghostwhite {
     color: #f8f8ff;
