@@ -193,15 +193,6 @@ h6 {
   background-color: #262626;
 }
 
-.btn-gray-50 {
-  background-color: #f1f3f5;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.btn-gray-50:hover {
-  background-color: #e2e6ea;
-}
-
 .btn-gray-100 {
   background-color: #e2e7ec;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -560,10 +551,6 @@ h6 {
   background-color: #000;
 }
 
-.bg-gray-50 {
-  background-color: #f1f3f5;
-}
-
 .bg-gray-100 {
   background-color: #e2e7ec;
 }
@@ -706,10 +693,6 @@ h6 {
 
 .text-black {
   color: #000;
-}
-
-.text-gray-50 {
-  color: #f1f3f5;
 }
 
 .text-gray-100 {
@@ -987,9 +970,6 @@ h6 {
   .xs\:bg-black {
     background-color: #000;
   }
-  .xs\:bg-gray-50 {
-    background-color: #f1f3f5;
-  }
   .xs\:bg-gray-100 {
     background-color: #e2e7ec;
   }
@@ -1097,9 +1077,6 @@ h6 {
   }
   .xs\:text-black {
     color: #000;
-  }
-  .xs\:text-gray-50 {
-    color: #f1f3f5;
   }
   .xs\:text-gray-100 {
     color: #e2e7ec;
@@ -1314,9 +1291,6 @@ h6 {
   .sm\:bg-black {
     background-color: #000;
   }
-  .sm\:bg-gray-50 {
-    background-color: #f1f3f5;
-  }
   .sm\:bg-gray-100 {
     background-color: #e2e7ec;
   }
@@ -1424,9 +1398,6 @@ h6 {
   }
   .sm\:text-black {
     color: #000;
-  }
-  .sm\:text-gray-50 {
-    color: #f1f3f5;
   }
   .sm\:text-gray-100 {
     color: #e2e7ec;
@@ -1641,9 +1612,6 @@ h6 {
   .md\:bg-black {
     background-color: #000;
   }
-  .md\:bg-gray-50 {
-    background-color: #f1f3f5;
-  }
   .md\:bg-gray-100 {
     background-color: #e2e7ec;
   }
@@ -1751,9 +1719,6 @@ h6 {
   }
   .md\:text-black {
     color: #000;
-  }
-  .md\:text-gray-50 {
-    color: #f1f3f5;
   }
   .md\:text-gray-100 {
     color: #e2e7ec;
@@ -1968,9 +1933,6 @@ h6 {
   .lg\:bg-black {
     background-color: #000;
   }
-  .lg\:bg-gray-50 {
-    background-color: #f1f3f5;
-  }
   .lg\:bg-gray-100 {
     background-color: #e2e7ec;
   }
@@ -2078,9 +2040,6 @@ h6 {
   }
   .lg\:text-black {
     color: #000;
-  }
-  .lg\:text-gray-50 {
-    color: #f1f3f5;
   }
   .lg\:text-gray-100 {
     color: #e2e7ec;
@@ -2295,9 +2254,6 @@ h6 {
   .xl\:bg-black {
     background-color: #000;
   }
-  .xl\:bg-gray-50 {
-    background-color: #f1f3f5;
-  }
   .xl\:bg-gray-100 {
     background-color: #e2e7ec;
   }
@@ -2405,9 +2361,6 @@ h6 {
   }
   .xl\:text-black {
     color: #000;
-  }
-  .xl\:text-gray-50 {
-    color: #f1f3f5;
   }
   .xl\:text-gray-100 {
     color: #e2e7ec;
@@ -2622,9 +2575,6 @@ h6 {
   .xxl\:bg-black {
     background-color: #000;
   }
-  .xxl\:bg-gray-50 {
-    background-color: #f1f3f5;
-  }
   .xxl\:bg-gray-100 {
     background-color: #e2e7ec;
   }
@@ -2732,9 +2682,6 @@ h6 {
   }
   .xxl\:text-black {
     color: #000;
-  }
-  .xxl\:text-gray-50 {
-    color: #f1f3f5;
   }
   .xxl\:text-gray-100 {
     color: #e2e7ec;
