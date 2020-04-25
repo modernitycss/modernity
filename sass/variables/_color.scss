@@ -46,7 +46,16 @@ $purple-700: #32265a;
 $purple-800: #281e48;
 $purple-900: #1e1736;
 
+$indigo-100: #c5cae9 !default;
+$indigo-200: #9fa8da !default;
+$indigo-300: #7986cb !default;
+$indigo-400: #5c6bc0 !default;
 $indigo: #3f51b5 !default;
+$indigo-600: #3949ab !default;
+$indigo-700: #303f9f !default;
+$indigo-800: #283593 !default;
+$indigo-900: #1a237e !default;
+
 $blue: #2196f3 !default;
 $cyan: #00bcd4 !default;
 $teal: #009688 !default;
@@ -91,7 +100,15 @@ $theme-colors: (
   "purple-700": $purple-700,
   "purple-800": $purple-800,
   "purple-900": $purple-900,
+  "indigo-100": $indigo-100,
+  "indigo-200": $indigo-200,
+  "indigo-300": $indigo-300,
+  "indigo-400": $indigo-400,
   "indigo": $indigo,
+  "indigo-600": $indigo-600,
+  "indigo-700": $indigo-700,
+  "indigo-800": $indigo-800,
+  "indigo-900": $indigo-900,
   "blue": $blue,
   "cyan": $cyan,
   "teal": $teal,
