@@ -75,7 +75,16 @@ $cyan-700: #0097a7 !default;
 $cyan-800: #00838f !default;
 $cyan-900: #006064 !default;
 
+$teal-100: #b2dfdb !default;
+$teal-200: #80cbc4 !default;
+$teal-300: #4db6ac !default;
+$teal-400: #26a69a !default;
 $teal: #009688 !default;
+$teal-600: #00897b !default;
+$teal-700: #00796b !default;
+$teal-800: #00695c !default;
+$teal-900: #004d40 !default;
+
 $green: #4caf50 !default;
 $lime: #cddc39 !default;
 $yellow: #ffeb3b !default;
@@ -143,7 +152,15 @@ $theme-colors: (
   "cyan-700": $cyan-700,
   "cyan-800": $cyan-800,
   "cyan-900": $cyan-900,
+  "teal-100": $teal-100,
+  "teal-200": $teal-200,
+  "teal-300": $teal-300,
+  "teal-400": $teal-400,
   "teal": $teal,
+  "teal-600": $teal-600,
+  "teal-700": $teal-700,
+  "teal-800": $teal-800,
+  "teal-900": $teal-900,
   "green": $green,
   "lime": $lime,
   "yellow": $yellow,
