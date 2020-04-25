@@ -18,6 +18,16 @@ $gray-700: #4e5d6f !default;
 $gray-800: #38434f !default;
 $gray-900: #22282f !default;
 
+$red-100: #ffe6e5 !default;
+$red-200: #ffb4b3 !default;
+$red-300: #ff8280 !default;
+$red-400: #ff514d !default;
+$red: #ff1f1a !default;
+$red-600: #e60500 !default;
+$red-700: #b30400 !default;
+$red-800: #800300 !default;
+$red-900: #4d0200 !default;
+
 $purple: #673ab7 !default;
 $indigo: #3f51b5 !default;
 $blue: #2196f3 !default;
@@ -28,7 +38,6 @@ $lime: #cddc39 !default;
 $yellow: #ffeb3b !default;
 $amber: #ffc107 !default;
 $orange: #ff5722 !default;
-$red: #f44336 !default;
 $pink: #e91e63 !default;
 
 $theme-colors: (
@@ -59,7 +68,15 @@ $theme-colors: (
   "yellow": $yellow,
   "amber": $amber,
   "orange": $orange,
+  "red-100": $red-100,
+  "red-200": $red-200,
+  "red-300": $red-300,
+  "red-400": $red-400,
   "red": $red,
+  "red-600": $red-600,
+  "red-700": $red-700,
+  "red-800": $red-800,
+  "red-900": $red-900,
   "pink": $pink,
 ) !default;
 
