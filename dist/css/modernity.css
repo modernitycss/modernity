@@ -839,16 +839,6 @@ h6 {
   background-color: #154a19;
 }
 
-.btn-lime {
-  background-color: #cddc39;
-  color: #000;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.btn-lime:hover {
-  background-color: #c6d626;
-}
-
 .btn-yellow {
   background-color: #ffeb3b;
   color: #000;
@@ -857,16 +847,6 @@ h6 {
 
 .btn-yellow:hover {
   background-color: #ffe822;
-}
-
-.btn-amber {
-  background-color: #ffc107;
-  color: #000;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.btn-amber:hover {
-  background-color: #edb100;
 }
 
 .btn-orange {
@@ -1329,16 +1309,8 @@ h6 {
   background-color: #1b5e20;
 }
 
-.bg-lime {
-  background-color: #cddc39;
-}
-
 .bg-yellow {
   background-color: #ffeb3b;
-}
-
-.bg-amber {
-  background-color: #ffc107;
 }
 
 .bg-orange {
@@ -1693,16 +1665,8 @@ h6 {
   color: #1b5e20;
 }
 
-.text-lime {
-  color: #cddc39;
-}
-
 .text-yellow {
   color: #ffeb3b;
-}
-
-.text-amber {
-  color: #ffc107;
 }
 
 .text-orange {
@@ -2117,14 +2081,8 @@ h6 {
   .xs\:bg-green-900 {
     background-color: #1b5e20;
   }
-  .xs\:bg-lime {
-    background-color: #cddc39;
-  }
   .xs\:bg-yellow {
     background-color: #ffeb3b;
-  }
-  .xs\:bg-amber {
-    background-color: #ffc107;
   }
   .xs\:bg-orange {
     background-color: #ff5722;
@@ -2390,14 +2348,8 @@ h6 {
   .xs\:text-green-900 {
     color: #1b5e20;
   }
-  .xs\:text-lime {
-    color: #cddc39;
-  }
   .xs\:text-yellow {
     color: #ffeb3b;
-  }
-  .xs\:text-amber {
-    color: #ffc107;
   }
   .xs\:text-orange {
     color: #ff5722;
@@ -2768,14 +2720,8 @@ h6 {
   .sm\:bg-green-900 {
     background-color: #1b5e20;
   }
-  .sm\:bg-lime {
-    background-color: #cddc39;
-  }
   .sm\:bg-yellow {
     background-color: #ffeb3b;
-  }
-  .sm\:bg-amber {
-    background-color: #ffc107;
   }
   .sm\:bg-orange {
     background-color: #ff5722;
@@ -3041,14 +2987,8 @@ h6 {
   .sm\:text-green-900 {
     color: #1b5e20;
   }
-  .sm\:text-lime {
-    color: #cddc39;
-  }
   .sm\:text-yellow {
     color: #ffeb3b;
-  }
-  .sm\:text-amber {
-    color: #ffc107;
   }
   .sm\:text-orange {
     color: #ff5722;
@@ -3419,14 +3359,8 @@ h6 {
   .md\:bg-green-900 {
     background-color: #1b5e20;
   }
-  .md\:bg-lime {
-    background-color: #cddc39;
-  }
   .md\:bg-yellow {
     background-color: #ffeb3b;
-  }
-  .md\:bg-amber {
-    background-color: #ffc107;
   }
   .md\:bg-orange {
     background-color: #ff5722;
@@ -3692,14 +3626,8 @@ h6 {
   .md\:text-green-900 {
     color: #1b5e20;
   }
-  .md\:text-lime {
-    color: #cddc39;
-  }
   .md\:text-yellow {
     color: #ffeb3b;
-  }
-  .md\:text-amber {
-    color: #ffc107;
   }
   .md\:text-orange {
     color: #ff5722;
@@ -4070,14 +3998,8 @@ h6 {
   .lg\:bg-green-900 {
     background-color: #1b5e20;
   }
-  .lg\:bg-lime {
-    background-color: #cddc39;
-  }
   .lg\:bg-yellow {
     background-color: #ffeb3b;
-  }
-  .lg\:bg-amber {
-    background-color: #ffc107;
   }
   .lg\:bg-orange {
     background-color: #ff5722;
@@ -4343,14 +4265,8 @@ h6 {
   .lg\:text-green-900 {
     color: #1b5e20;
   }
-  .lg\:text-lime {
-    color: #cddc39;
-  }
   .lg\:text-yellow {
     color: #ffeb3b;
-  }
-  .lg\:text-amber {
-    color: #ffc107;
   }
   .lg\:text-orange {
     color: #ff5722;
@@ -4721,14 +4637,8 @@ h6 {
   .xl\:bg-green-900 {
     background-color: #1b5e20;
   }
-  .xl\:bg-lime {
-    background-color: #cddc39;
-  }
   .xl\:bg-yellow {
     background-color: #ffeb3b;
-  }
-  .xl\:bg-amber {
-    background-color: #ffc107;
   }
   .xl\:bg-orange {
     background-color: #ff5722;
@@ -4994,14 +4904,8 @@ h6 {
   .xl\:text-green-900 {
     color: #1b5e20;
   }
-  .xl\:text-lime {
-    color: #cddc39;
-  }
   .xl\:text-yellow {
     color: #ffeb3b;
-  }
-  .xl\:text-amber {
-    color: #ffc107;
   }
   .xl\:text-orange {
     color: #ff5722;
@@ -5372,14 +5276,8 @@ h6 {
   .xxl\:bg-green-900 {
     background-color: #1b5e20;
   }
-  .xxl\:bg-lime {
-    background-color: #cddc39;
-  }
   .xxl\:bg-yellow {
     background-color: #ffeb3b;
-  }
-  .xxl\:bg-amber {
-    background-color: #ffc107;
   }
   .xxl\:bg-orange {
     background-color: #ff5722;
@@ -5645,14 +5543,8 @@ h6 {
   .xxl\:text-green-900 {
     color: #1b5e20;
   }
-  .xxl\:text-lime {
-    color: #cddc39;
-  }
   .xxl\:text-yellow {
     color: #ffeb3b;
-  }
-  .xxl\:text-amber {
-    color: #ffc107;
   }
   .xxl\:text-orange {
     color: #ff5722;
