@@ -56,6 +56,16 @@ $indigo-700: #303f9f !default;
 $indigo-800: #283593 !default;
 $indigo-900: #1a237e !default;
 
+$blue-100: #b4d7fe !default;
+$blue-200: #82bcfd !default;
+$blue-300: #50a1fc !default;
+$blue-400: #2f8ffb !default;
+$blue: #1e86fb !default;
+$blue-600: #046de1 !default;
+$blue-700: #0355af !default;
+$blue-800: #023d7d !default;
+$blue-900: #01244b !default;
+
 $blue: #2196f3 !default;
 $cyan: #00bcd4 !default;
 $teal: #009688 !default;
@@ -109,7 +119,15 @@ $theme-colors: (
   "indigo-700": $indigo-700,
   "indigo-800": $indigo-800,
   "indigo-900": $indigo-900,
+  "blue-100": $blue-100,
+  "blue-200": $blue-200,
+  "blue-300": $blue-300,
+  "blue-400": $blue-400,
   "blue": $blue,
+  "blue-600": $blue-600,
+  "blue-700": $blue-700,
+  "blue-800": $blue-800,
+  "blue-900": $blue-900,
   "cyan": $cyan,
   "teal": $teal,
   "green": $green,

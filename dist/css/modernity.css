@@ -521,14 +521,86 @@ h6 {
   background-color: #161d69;
 }
 
+.btn-blue-100 {
+  background-color: #b4d7fe;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-blue-100:hover {
+  background-color: #9bcafe;
+}
+
+.btn-blue-200 {
+  background-color: #82bcfd;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-blue-200:hover {
+  background-color: #69affd;
+}
+
+.btn-blue-300 {
+  background-color: #50a1fc;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-blue-300:hover {
+  background-color: #3794fc;
+}
+
+.btn-blue-400 {
+  background-color: #2f8ffb;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-blue-400:hover {
+  background-color: #1682fb;
+}
+
 .btn-blue {
-  background-color: #2196f3;
+  background-color: #1e86fb;
   color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-blue:hover {
-  background-color: #0d8aee;
+  background-color: #0579fb;
+}
+
+.btn-blue-600 {
+  background-color: #046de1;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-blue-600:hover {
+  background-color: #0461c8;
+}
+
+.btn-blue-700 {
+  background-color: #0355af;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-blue-700:hover {
+  background-color: #034996;
+}
+
+.btn-blue-800 {
+  background-color: #023d7d;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-blue-800:hover {
+  background-color: #023164;
+}
+
+.btn-blue-900 {
+  background-color: #01244b;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-blue-900:hover {
+  background-color: #011832;
 }
 
 .btn-cyan {
@@ -911,8 +983,40 @@ h6 {
   background-color: #1a237e;
 }
 
+.bg-blue-100 {
+  background-color: #b4d7fe;
+}
+
+.bg-blue-200 {
+  background-color: #82bcfd;
+}
+
+.bg-blue-300 {
+  background-color: #50a1fc;
+}
+
+.bg-blue-400 {
+  background-color: #2f8ffb;
+}
+
 .bg-blue {
-  background-color: #2196f3;
+  background-color: #1e86fb;
+}
+
+.bg-blue-600 {
+  background-color: #046de1;
+}
+
+.bg-blue-700 {
+  background-color: #0355af;
+}
+
+.bg-blue-800 {
+  background-color: #023d7d;
+}
+
+.bg-blue-900 {
+  background-color: #01244b;
 }
 
 .bg-cyan {
@@ -1151,8 +1255,40 @@ h6 {
   color: #1a237e;
 }
 
+.text-blue-100 {
+  color: #b4d7fe;
+}
+
+.text-blue-200 {
+  color: #82bcfd;
+}
+
+.text-blue-300 {
+  color: #50a1fc;
+}
+
+.text-blue-400 {
+  color: #2f8ffb;
+}
+
 .text-blue {
-  color: #2196f3;
+  color: #1e86fb;
+}
+
+.text-blue-600 {
+  color: #046de1;
+}
+
+.text-blue-700 {
+  color: #0355af;
+}
+
+.text-blue-800 {
+  color: #023d7d;
+}
+
+.text-blue-900 {
+  color: #01244b;
 }
 
 .text-cyan {
@@ -1486,8 +1622,32 @@ h6 {
   .xs\:bg-indigo-900 {
     background-color: #1a237e;
   }
+  .xs\:bg-blue-100 {
+    background-color: #b4d7fe;
+  }
+  .xs\:bg-blue-200 {
+    background-color: #82bcfd;
+  }
+  .xs\:bg-blue-300 {
+    background-color: #50a1fc;
+  }
+  .xs\:bg-blue-400 {
+    background-color: #2f8ffb;
+  }
   .xs\:bg-blue {
-    background-color: #2196f3;
+    background-color: #1e86fb;
+  }
+  .xs\:bg-blue-600 {
+    background-color: #046de1;
+  }
+  .xs\:bg-blue-700 {
+    background-color: #0355af;
+  }
+  .xs\:bg-blue-800 {
+    background-color: #023d7d;
+  }
+  .xs\:bg-blue-900 {
+    background-color: #01244b;
   }
   .xs\:bg-cyan {
     background-color: #00bcd4;
@@ -1666,8 +1826,32 @@ h6 {
   .xs\:text-indigo-900 {
     color: #1a237e;
   }
+  .xs\:text-blue-100 {
+    color: #b4d7fe;
+  }
+  .xs\:text-blue-200 {
+    color: #82bcfd;
+  }
+  .xs\:text-blue-300 {
+    color: #50a1fc;
+  }
+  .xs\:text-blue-400 {
+    color: #2f8ffb;
+  }
   .xs\:text-blue {
-    color: #2196f3;
+    color: #1e86fb;
+  }
+  .xs\:text-blue-600 {
+    color: #046de1;
+  }
+  .xs\:text-blue-700 {
+    color: #0355af;
+  }
+  .xs\:text-blue-800 {
+    color: #023d7d;
+  }
+  .xs\:text-blue-900 {
+    color: #01244b;
   }
   .xs\:text-cyan {
     color: #00bcd4;
@@ -1951,8 +2135,32 @@ h6 {
   .sm\:bg-indigo-900 {
     background-color: #1a237e;
   }
+  .sm\:bg-blue-100 {
+    background-color: #b4d7fe;
+  }
+  .sm\:bg-blue-200 {
+    background-color: #82bcfd;
+  }
+  .sm\:bg-blue-300 {
+    background-color: #50a1fc;
+  }
+  .sm\:bg-blue-400 {
+    background-color: #2f8ffb;
+  }
   .sm\:bg-blue {
-    background-color: #2196f3;
+    background-color: #1e86fb;
+  }
+  .sm\:bg-blue-600 {
+    background-color: #046de1;
+  }
+  .sm\:bg-blue-700 {
+    background-color: #0355af;
+  }
+  .sm\:bg-blue-800 {
+    background-color: #023d7d;
+  }
+  .sm\:bg-blue-900 {
+    background-color: #01244b;
   }
   .sm\:bg-cyan {
     background-color: #00bcd4;
@@ -2131,8 +2339,32 @@ h6 {
   .sm\:text-indigo-900 {
     color: #1a237e;
   }
+  .sm\:text-blue-100 {
+    color: #b4d7fe;
+  }
+  .sm\:text-blue-200 {
+    color: #82bcfd;
+  }
+  .sm\:text-blue-300 {
+    color: #50a1fc;
+  }
+  .sm\:text-blue-400 {
+    color: #2f8ffb;
+  }
   .sm\:text-blue {
-    color: #2196f3;
+    color: #1e86fb;
+  }
+  .sm\:text-blue-600 {
+    color: #046de1;
+  }
+  .sm\:text-blue-700 {
+    color: #0355af;
+  }
+  .sm\:text-blue-800 {
+    color: #023d7d;
+  }
+  .sm\:text-blue-900 {
+    color: #01244b;
   }
   .sm\:text-cyan {
     color: #00bcd4;
@@ -2416,8 +2648,32 @@ h6 {
   .md\:bg-indigo-900 {
     background-color: #1a237e;
   }
+  .md\:bg-blue-100 {
+    background-color: #b4d7fe;
+  }
+  .md\:bg-blue-200 {
+    background-color: #82bcfd;
+  }
+  .md\:bg-blue-300 {
+    background-color: #50a1fc;
+  }
+  .md\:bg-blue-400 {
+    background-color: #2f8ffb;
+  }
   .md\:bg-blue {
-    background-color: #2196f3;
+    background-color: #1e86fb;
+  }
+  .md\:bg-blue-600 {
+    background-color: #046de1;
+  }
+  .md\:bg-blue-700 {
+    background-color: #0355af;
+  }
+  .md\:bg-blue-800 {
+    background-color: #023d7d;
+  }
+  .md\:bg-blue-900 {
+    background-color: #01244b;
   }
   .md\:bg-cyan {
     background-color: #00bcd4;
@@ -2596,8 +2852,32 @@ h6 {
   .md\:text-indigo-900 {
     color: #1a237e;
   }
+  .md\:text-blue-100 {
+    color: #b4d7fe;
+  }
+  .md\:text-blue-200 {
+    color: #82bcfd;
+  }
+  .md\:text-blue-300 {
+    color: #50a1fc;
+  }
+  .md\:text-blue-400 {
+    color: #2f8ffb;
+  }
   .md\:text-blue {
-    color: #2196f3;
+    color: #1e86fb;
+  }
+  .md\:text-blue-600 {
+    color: #046de1;
+  }
+  .md\:text-blue-700 {
+    color: #0355af;
+  }
+  .md\:text-blue-800 {
+    color: #023d7d;
+  }
+  .md\:text-blue-900 {
+    color: #01244b;
   }
   .md\:text-cyan {
     color: #00bcd4;
@@ -2881,8 +3161,32 @@ h6 {
   .lg\:bg-indigo-900 {
     background-color: #1a237e;
   }
+  .lg\:bg-blue-100 {
+    background-color: #b4d7fe;
+  }
+  .lg\:bg-blue-200 {
+    background-color: #82bcfd;
+  }
+  .lg\:bg-blue-300 {
+    background-color: #50a1fc;
+  }
+  .lg\:bg-blue-400 {
+    background-color: #2f8ffb;
+  }
   .lg\:bg-blue {
-    background-color: #2196f3;
+    background-color: #1e86fb;
+  }
+  .lg\:bg-blue-600 {
+    background-color: #046de1;
+  }
+  .lg\:bg-blue-700 {
+    background-color: #0355af;
+  }
+  .lg\:bg-blue-800 {
+    background-color: #023d7d;
+  }
+  .lg\:bg-blue-900 {
+    background-color: #01244b;
   }
   .lg\:bg-cyan {
     background-color: #00bcd4;
@@ -3061,8 +3365,32 @@ h6 {
   .lg\:text-indigo-900 {
     color: #1a237e;
   }
+  .lg\:text-blue-100 {
+    color: #b4d7fe;
+  }
+  .lg\:text-blue-200 {
+    color: #82bcfd;
+  }
+  .lg\:text-blue-300 {
+    color: #50a1fc;
+  }
+  .lg\:text-blue-400 {
+    color: #2f8ffb;
+  }
   .lg\:text-blue {
-    color: #2196f3;
+    color: #1e86fb;
+  }
+  .lg\:text-blue-600 {
+    color: #046de1;
+  }
+  .lg\:text-blue-700 {
+    color: #0355af;
+  }
+  .lg\:text-blue-800 {
+    color: #023d7d;
+  }
+  .lg\:text-blue-900 {
+    color: #01244b;
   }
   .lg\:text-cyan {
     color: #00bcd4;
@@ -3346,8 +3674,32 @@ h6 {
   .xl\:bg-indigo-900 {
     background-color: #1a237e;
   }
+  .xl\:bg-blue-100 {
+    background-color: #b4d7fe;
+  }
+  .xl\:bg-blue-200 {
+    background-color: #82bcfd;
+  }
+  .xl\:bg-blue-300 {
+    background-color: #50a1fc;
+  }
+  .xl\:bg-blue-400 {
+    background-color: #2f8ffb;
+  }
   .xl\:bg-blue {
-    background-color: #2196f3;
+    background-color: #1e86fb;
+  }
+  .xl\:bg-blue-600 {
+    background-color: #046de1;
+  }
+  .xl\:bg-blue-700 {
+    background-color: #0355af;
+  }
+  .xl\:bg-blue-800 {
+    background-color: #023d7d;
+  }
+  .xl\:bg-blue-900 {
+    background-color: #01244b;
   }
   .xl\:bg-cyan {
     background-color: #00bcd4;
@@ -3526,8 +3878,32 @@ h6 {
   .xl\:text-indigo-900 {
     color: #1a237e;
   }
+  .xl\:text-blue-100 {
+    color: #b4d7fe;
+  }
+  .xl\:text-blue-200 {
+    color: #82bcfd;
+  }
+  .xl\:text-blue-300 {
+    color: #50a1fc;
+  }
+  .xl\:text-blue-400 {
+    color: #2f8ffb;
+  }
   .xl\:text-blue {
-    color: #2196f3;
+    color: #1e86fb;
+  }
+  .xl\:text-blue-600 {
+    color: #046de1;
+  }
+  .xl\:text-blue-700 {
+    color: #0355af;
+  }
+  .xl\:text-blue-800 {
+    color: #023d7d;
+  }
+  .xl\:text-blue-900 {
+    color: #01244b;
   }
   .xl\:text-cyan {
     color: #00bcd4;
@@ -3811,8 +4187,32 @@ h6 {
   .xxl\:bg-indigo-900 {
     background-color: #1a237e;
   }
+  .xxl\:bg-blue-100 {
+    background-color: #b4d7fe;
+  }
+  .xxl\:bg-blue-200 {
+    background-color: #82bcfd;
+  }
+  .xxl\:bg-blue-300 {
+    background-color: #50a1fc;
+  }
+  .xxl\:bg-blue-400 {
+    background-color: #2f8ffb;
+  }
   .xxl\:bg-blue {
-    background-color: #2196f3;
+    background-color: #1e86fb;
+  }
+  .xxl\:bg-blue-600 {
+    background-color: #046de1;
+  }
+  .xxl\:bg-blue-700 {
+    background-color: #0355af;
+  }
+  .xxl\:bg-blue-800 {
+    background-color: #023d7d;
+  }
+  .xxl\:bg-blue-900 {
+    background-color: #01244b;
   }
   .xxl\:bg-cyan {
     background-color: #00bcd4;
@@ -3991,8 +4391,32 @@ h6 {
   .xxl\:text-indigo-900 {
     color: #1a237e;
   }
+  .xxl\:text-blue-100 {
+    color: #b4d7fe;
+  }
+  .xxl\:text-blue-200 {
+    color: #82bcfd;
+  }
+  .xxl\:text-blue-300 {
+    color: #50a1fc;
+  }
+  .xxl\:text-blue-400 {
+    color: #2f8ffb;
+  }
   .xxl\:text-blue {
-    color: #2196f3;
+    color: #1e86fb;
+  }
+  .xxl\:text-blue-600 {
+    color: #046de1;
+  }
+  .xxl\:text-blue-700 {
+    color: #0355af;
+  }
+  .xxl\:text-blue-800 {
+    color: #023d7d;
+  }
+  .xxl\:text-blue-900 {
+    color: #01244b;
   }
   .xxl\:text-cyan {
     color: #00bcd4;
