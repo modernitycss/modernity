@@ -49,6 +49,21 @@
   }
 }
 
+@each $color, $value in $button-outline-colors {
+  .btn-outline-#{$color} {
+    background-color: $white;
+    border: 1px solid $value;
+    color: map-get($button-outline-text-colors, $color);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+
+    &:hover {
+      background-color: map-get($button-outline-text-colors, $color);
+      color: map-get($button-text-colors, $color);
+      border-color: map-get($button-outline-text-colors, $color);
+    }
+  }
+}
+
 .btn-full {
   display: block;
 }

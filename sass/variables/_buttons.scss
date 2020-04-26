@@ -61,3 +61,35 @@ $button-light-text-colors: (
   "red": $red-600,
   "pink": $pink-600,
 ) !default;
+
+$button-outline-colors: (
+  "gray": $gray-200,
+  "brown": $brown-200,
+  "purple": $purple-200,
+  "indigo": $indigo-200,
+  "blue": $blue-200,
+  "cyan": $cyan-200,
+  "teal": $teal-200,
+  "green": $green-200,
+  "yellow": $yellow-300,
+  "orange": $orange-200,
+  "red": $red-200,
+  "pink": $pink-200,
+) !default;
+
+$button-outline-text-colors: (
+  "white": $white,
+  "black": $black,
+  "gray": $gray,
+  "brown": $brown,
+  "purple": $purple,
+  "indigo": $indigo,
+  "blue": $blue,
+  "cyan": $cyan,
+  "teal": $teal,
+  "green": $green,
+  "yellow": $yellow,
+  "orange": $orange,
+  "red": $red,
+  "pink": $pink,
+) !default;
