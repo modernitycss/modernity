@@ -24,8 +24,8 @@
     color: map-get($button-text-colors, $color);
     @if (($color == "white")) {
       border: 1px solid $gray-300;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     }
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 
     &:hover {
       @if ($color == "black") {
@@ -41,7 +41,6 @@
   .btn-light-#{$color} {
     background-color: $value;
     color: map-get($button-light-text-colors, $color);
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 
     &:hover {
       background-color: darken($value, 5%);
@@ -54,7 +53,6 @@
     background-color: $white;
     border: 1px solid $value;
     color: map-get($button-outline-text-colors, $color);
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 
     &:hover {
       background-color: map-get($button-outline-text-colors, $color);

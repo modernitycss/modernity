@@ -147,7 +147,6 @@ h6 {
 .btn-black {
   background-color: #000;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-black:hover {
@@ -157,7 +156,6 @@ h6 {
 .btn-gray {
   background-color: #70859e;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-gray:hover {
@@ -167,7 +165,6 @@ h6 {
 .btn-brown {
   background-color: #ad7339;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-brown:hover {
@@ -177,7 +174,6 @@ h6 {
 .btn-purple {
   background-color: #5a44a2;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-purple:hover {
@@ -187,7 +183,6 @@ h6 {
 .btn-indigo {
   background-color: #3f51b5;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-indigo:hover {
@@ -197,7 +192,6 @@ h6 {
 .btn-blue {
   background-color: #1e86fb;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-blue:hover {
@@ -207,7 +201,6 @@ h6 {
 .btn-cyan {
   background-color: #00bcd4;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-cyan:hover {
@@ -217,7 +210,6 @@ h6 {
 .btn-teal {
   background-color: #009688;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-teal:hover {
@@ -227,7 +219,6 @@ h6 {
 .btn-green {
   background-color: #4caf50;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-green:hover {
@@ -237,7 +228,6 @@ h6 {
 .btn-yellow {
   background-color: #fcd203;
   color: #000;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-yellow:hover {
@@ -247,7 +237,6 @@ h6 {
 .btn-orange {
   background-color: #ff5722;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-orange:hover {
@@ -257,7 +246,6 @@ h6 {
 .btn-red {
   background-color: #da2d2d;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-red:hover {
@@ -267,7 +255,6 @@ h6 {
 .btn-pink {
   background-color: #e91e63;
   color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-pink:hover {
@@ -277,7 +264,6 @@ h6 {
 .btn-light-gray {
   background-color: #e2e7ec;
   color: #65788e;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-gray:hover {
@@ -287,7 +273,6 @@ h6 {
 .btn-light-brown {
   background-color: #f4e9dd;
   color: #87592c;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-brown:hover {
@@ -297,7 +282,6 @@ h6 {
 .btn-light-purple {
   background-color: #e4e0f2;
   color: #46357e;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-purple:hover {
@@ -307,7 +291,6 @@ h6 {
 .btn-light-indigo {
   background-color: #daddf2;
   color: #3949ab;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-indigo:hover {
@@ -317,7 +300,6 @@ h6 {
 .btn-light-blue {
   background-color: #cbe3fe;
   color: #046de1;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-blue:hover {
@@ -327,7 +309,6 @@ h6 {
 .btn-light-cyan {
   background-color: #d4faff;
   color: #00acc1;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-cyan:hover {
@@ -337,7 +318,6 @@ h6 {
 .btn-light-teal {
   background-color: #d1fffb;
   color: #00897b;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-teal:hover {
@@ -347,7 +327,6 @@ h6 {
 .btn-light-green {
   background-color: #e1f2e2;
   color: #43a047;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-green:hover {
@@ -357,7 +336,6 @@ h6 {
 .btn-light-yellow {
   background-color: #fff8d8;
   color: #d5b203;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-yellow:hover {
@@ -367,7 +345,6 @@ h6 {
 .btn-light-orange {
   background-color: #ffddd3;
   color: #f4511e;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-orange:hover {
@@ -377,7 +354,6 @@ h6 {
 .btn-light-red {
   background-color: #f7d4d4;
   color: #c32222;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-red:hover {
@@ -387,7 +363,6 @@ h6 {
 .btn-light-pink {
   background-color: #fad1df;
   color: #d81b60;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-light-pink:hover {
@@ -398,7 +373,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #c6ced8;
   color: #70859e;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-gray:hover {
@@ -411,7 +385,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #e0bf9f;
   color: #ad7339;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-brown:hover {
@@ -424,7 +397,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #b2a5d9;
   color: #5a44a2;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-purple:hover {
@@ -437,7 +409,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #9fa8da;
   color: #3f51b5;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-indigo:hover {
@@ -450,7 +421,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #82bcfd;
   color: #1e86fb;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-blue:hover {
@@ -463,7 +433,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #80deea;
   color: #00bcd4;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-cyan:hover {
@@ -476,7 +445,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #80cbc4;
   color: #009688;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-teal:hover {
@@ -489,7 +457,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #a5d6a7;
   color: #4caf50;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-green:hover {
@@ -502,7 +469,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #fde777;
   color: #fcd203;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-yellow:hover {
@@ -515,7 +481,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #ffab91;
   color: #ff5722;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-orange:hover {
@@ -528,7 +493,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #ec9393;
   color: #da2d2d;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-red:hover {
@@ -541,7 +505,6 @@ h6 {
   background-color: #fff;
   border: 1px solid #f48fb1;
   color: #e91e63;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-outline-pink:hover {
