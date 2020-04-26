@@ -550,6 +550,10 @@ h6 {
   border-color: #e91e63;
 }
 
+.btn-rounded {
+  border-radius: 2rem;
+}
+
 .btn-full {
   display: block;
 }
