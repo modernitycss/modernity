@@ -24,7 +24,6 @@
     color: map-get($theme-text-colors, $color);
     @if (
       ($color == "white") or
-        ($color == "snow") or
         ($color == "ghostwhite") or
         ($color == "whitesmoke")
     ) {
