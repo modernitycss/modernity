@@ -1,4 +1,4 @@
-// button here
+// default button
 .btn {
   display: inline-flex;
   text-align: center;
@@ -18,6 +18,7 @@
   }
 }
 
+// button with background
 @each $color, $value in $button-colors {
   .btn-#{$color} {
     background-color: $value;
@@ -37,6 +38,7 @@
   }
 }
 
+// button with light background
 @each $color, $value in $button-light-colors {
   .btn-light-#{$color} {
     background-color: $value;
@@ -48,6 +50,7 @@
   }
 }
 
+// button with outline
 @each $color, $value in $button-outline-colors {
   .btn-outline-#{$color} {
     background-color: $white;
@@ -62,6 +65,7 @@
   }
 }
 
+// button with no background
 @each $color, $value in $button-colors {
   .btn-link-#{$color} {
     background-color: transparent;
