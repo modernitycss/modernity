@@ -1,0 +1,33 @@
+$button-colors: (
+  "white": $white,
+  "black": $black,
+  "gray": $gray,
+  "brown": $brown,
+  "purple": $purple,
+  "indigo": $indigo,
+  "blue": $blue,
+  "cyan": $cyan,
+  "teal": $teal,
+  "green": $green,
+  "yellow": $yellow,
+  "orange": $orange,
+  "red": $red,
+  "pink": $pink,
+) !default;
+
+$button-text-colors: (
+  "white": $gray-700,
+  "black": $white,
+  "gray": $white,
+  "brown": $white,
+  "purple": $white,
+  "indigo": $white,
+  "blue": $white,
+  "cyan": $white,
+  "teal": $white,
+  "green": $white,
+  "yellow": $black,
+  "orange": $white,
+  "red": $white,
+  "pink": $white,
+) !default;

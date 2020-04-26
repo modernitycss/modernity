@@ -18,16 +18,12 @@
   }
 }
 
-@each $color, $value in $theme-colors {
+@each $color, $value in $button-colors {
   .btn-#{$color} {
     background-color: $value;
-    color: map-get($theme-text-colors, $color);
-    @if (
-      ($color == "white") or
-        ($color == "ghostwhite") or
-        ($color == "whitesmoke")
-    ) {
-      border: 0.1rem solid #e2e8f0;
+    color: map-get($button-text-colors, $color);
+    @if (($color == "white")) {
+      border: 1px solid $gray-300;
     }
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 
