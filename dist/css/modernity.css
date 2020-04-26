@@ -274,6 +274,126 @@ h6 {
   background-color: #d81558;
 }
 
+.btn-light-gray {
+  background-color: #e2e7ec;
+  color: #65788e;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-gray:hover {
+  background-color: #d3dae2;
+}
+
+.btn-light-brown {
+  background-color: #ecd9c5;
+  color: #87592c;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-brown:hover {
+  background-color: #e6ccb2;
+}
+
+.btn-light-purple {
+  background-color: #d1c9e8;
+  color: #46357e;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-purple:hover {
+  background-color: #c2b7e0;
+}
+
+.btn-light-indigo {
+  background-color: #c5cae9;
+  color: #3949ab;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-indigo:hover {
+  background-color: #b3b9e2;
+}
+
+.btn-light-blue {
+  background-color: #b4d7fe;
+  color: #046de1;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-blue:hover {
+  background-color: #9bcafe;
+}
+
+.btn-light-cyan {
+  background-color: #b2ebf2;
+  color: #00acc1;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-cyan:hover {
+  background-color: #9ce5ee;
+}
+
+.btn-light-teal {
+  background-color: #b2dfdb;
+  color: #00897b;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-teal:hover {
+  background-color: #a0d8d3;
+}
+
+.btn-light-green {
+  background-color: #c8e6c9;
+  color: #43a047;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-green:hover {
+  background-color: #b6deb8;
+}
+
+.btn-light-yellow {
+  background-color: #fff9c4;
+  color: #fdd835;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-yellow:hover {
+  background-color: #fff6ab;
+}
+
+.btn-light-orange {
+  background-color: #ffccbc;
+  color: #f4511e;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-orange:hover {
+  background-color: #ffb9a3;
+}
+
+.btn-light-red {
+  background-color: #fbe9e9;
+  color: #c32222;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-red:hover {
+  background-color: #f7d3d3;
+}
+
+.btn-light-pink {
+  background-color: #f8bbd0;
+  color: #d81b60;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-light-pink:hover {
+  background-color: #f6a4c0;
+}
+
 .btn-full {
   display: block;
 }

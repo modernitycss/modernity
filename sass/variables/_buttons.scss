@@ -31,3 +31,33 @@ $button-text-colors: (
   "red": $white,
   "pink": $white,
 ) !default;
+
+$button-light-colors: (
+  "gray": $gray-100,
+  "brown": $brown-100,
+  "purple": $purple-100,
+  "indigo": $indigo-100,
+  "blue": $blue-100,
+  "cyan": $cyan-100,
+  "teal": $teal-100,
+  "green": $green-100,
+  "yellow": $yellow-100,
+  "orange": $orange-100,
+  "red": $red-100,
+  "pink": $pink-100,
+) !default;
+
+$button-light-text-colors: (
+  "gray": $gray-600,
+  "brown": $brown-600,
+  "purple": $purple-600,
+  "indigo": $indigo-600,
+  "blue": $blue-600,
+  "cyan": $cyan-600,
+  "teal": $teal-600,
+  "green": $green-600,
+  "yellow": $yellow-600,
+  "orange": $orange-600,
+  "red": $red-600,
+  "pink": $pink-600,
+) !default;
