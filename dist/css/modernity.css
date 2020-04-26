@@ -365,7 +365,6 @@ h6 {
 }
 
 .btn-outline-gray {
-  background-color: #fff;
   border: 0.094rem solid #c6ced8;
   color: #70859e;
 }
@@ -377,7 +376,6 @@ h6 {
 }
 
 .btn-outline-brown {
-  background-color: #fff;
   border: 0.094rem solid #e0bf9f;
   color: #ad7339;
 }
@@ -389,7 +387,6 @@ h6 {
 }
 
 .btn-outline-purple {
-  background-color: #fff;
   border: 0.094rem solid #b2a5d9;
   color: #5a44a2;
 }
@@ -401,7 +398,6 @@ h6 {
 }
 
 .btn-outline-indigo {
-  background-color: #fff;
   border: 0.094rem solid #9fa8da;
   color: #3f51b5;
 }
@@ -413,7 +409,6 @@ h6 {
 }
 
 .btn-outline-blue {
-  background-color: #fff;
   border: 0.094rem solid #82bcfd;
   color: #1e86fb;
 }
@@ -425,7 +420,6 @@ h6 {
 }
 
 .btn-outline-cyan {
-  background-color: #fff;
   border: 0.094rem solid #80deea;
   color: #00bcd4;
 }
@@ -437,7 +431,6 @@ h6 {
 }
 
 .btn-outline-teal {
-  background-color: #fff;
   border: 0.094rem solid #80cbc4;
   color: #009688;
 }
@@ -449,7 +442,6 @@ h6 {
 }
 
 .btn-outline-green {
-  background-color: #fff;
   border: 0.094rem solid #a5d6a7;
   color: #4caf50;
 }
@@ -461,7 +453,6 @@ h6 {
 }
 
 .btn-outline-yellow {
-  background-color: #fff;
   border: 0.094rem solid #fde777;
   color: #fcd203;
 }
@@ -473,7 +464,6 @@ h6 {
 }
 
 .btn-outline-orange {
-  background-color: #fff;
   border: 0.094rem solid #ffab91;
   color: #ff5722;
 }
@@ -485,7 +475,6 @@ h6 {
 }
 
 .btn-outline-red {
-  background-color: #fff;
   border: 0.094rem solid #ec9393;
   color: #da2d2d;
 }
@@ -497,7 +486,6 @@ h6 {
 }
 
 .btn-outline-pink {
-  background-color: #fff;
   border: 0.094rem solid #f48fb1;
   color: #e91e63;
 }

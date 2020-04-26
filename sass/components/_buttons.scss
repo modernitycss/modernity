@@ -48,7 +48,6 @@
 // button with outline
 @each $color, $value in $button-outline-colors {
   .btn-outline-#{$color} {
-    background-color: $white;
     border: 0.094rem solid $value;
     color: map-get($button-outline-text-colors, $color);
 
