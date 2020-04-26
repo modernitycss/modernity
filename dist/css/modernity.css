@@ -513,6 +513,148 @@ h6 {
   border-color: #e91e63;
 }
 
+.btn-link-white {
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  color: #65788e;
+}
+
+.btn-link-white:hover {
+  color: #38434f;
+  color: #d9d9d9;
+}
+
+.btn-link-black {
+  background-color: transparent;
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-link-black:hover {
+  color: black;
+}
+
+.btn-link-gray {
+  background-color: transparent;
+  color: #70859e;
+  text-decoration: none;
+}
+
+.btn-link-gray:hover {
+  color: #4e5f73;
+}
+
+.btn-link-brown {
+  background-color: transparent;
+  color: #ad7339;
+  text-decoration: none;
+}
+
+.btn-link-brown:hover {
+  color: #734d26;
+}
+
+.btn-link-purple {
+  background-color: transparent;
+  color: #5a44a2;
+  text-decoration: none;
+}
+
+.btn-link-purple:hover {
+  color: #3c2d6c;
+}
+
+.btn-link-indigo {
+  background-color: transparent;
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+.btn-link-indigo:hover {
+  color: #2b387c;
+}
+
+.btn-link-blue {
+  background-color: transparent;
+  color: #1e86fb;
+  text-decoration: none;
+}
+
+.btn-link-blue:hover {
+  color: #0460c9;
+}
+
+.btn-link-cyan {
+  background-color: transparent;
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.btn-link-cyan:hover {
+  color: #007888;
+}
+
+.btn-link-teal {
+  background-color: transparent;
+  color: #009688;
+  text-decoration: none;
+}
+
+.btn-link-teal:hover {
+  color: #004a43;
+}
+
+.btn-link-green {
+  background-color: transparent;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.btn-link-green:hover {
+  color: #357a38;
+}
+
+.btn-link-yellow {
+  background-color: transparent;
+  color: #fcd203;
+  text-decoration: none;
+}
+
+.btn-link-yellow:hover {
+  color: #b09302;
+}
+
+.btn-link-orange {
+  background-color: transparent;
+  color: #ff5722;
+  text-decoration: none;
+}
+
+.btn-link-orange:hover {
+  color: #d53300;
+}
+
+.btn-link-red {
+  background-color: transparent;
+  color: #da2d2d;
+  text-decoration: none;
+}
+
+.btn-link-red:hover {
+  color: #9f1c1c;
+}
+
+.btn-link-pink {
+  background-color: transparent;
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.btn-link-pink:hover {
+  color: #aa1145;
+}
+
 .btn-rounded {
   border-radius: 2rem;
 }

@@ -62,6 +62,24 @@
   }
 }
 
+@each $color, $value in $button-colors {
+  .btn-link-#{$color} {
+    background-color: transparent;
+    color: $value;
+    text-decoration: none;
+    @if (($color == "white")) {
+      color: $gray-600;
+    }
+
+    &:hover {
+      @if ($color == "white") {
+        color: $gray-800;
+      }
+      color: darken($value, 15%);
+    }
+  }
+}
+
 .btn-rounded {
   border-radius: 2rem;
 }
