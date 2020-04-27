@@ -1,0 +1,34 @@
+$placements: (
+  top: (
+    property: top,
+    class: "top",
+    values: (
+      "0": 0,
+      "auto": auto,
+    ),
+  ),
+  bottom: (
+    property: bottom,
+    class: "bottom",
+    values: (
+      "0": 0,
+      "auto": auto,
+    ),
+  ),
+  left: (
+    property: bottom,
+    class: "left",
+    values: (
+      "0": 0,
+      "auto": auto,
+    ),
+  ),
+  right: (
+    property: bottom,
+    class: "right",
+    values: (
+      "0": 0,
+      "auto": auto,
+    ),
+  ),
+);

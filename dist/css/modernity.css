@@ -1660,6 +1660,38 @@ h6 {
   float: right;
 }
 
+.top-0 {
+  top: 0;
+}
+
+.top-auto {
+  top: auto;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.bottom-auto {
+  bottom: auto;
+}
+
+.left-0 {
+  bottom: 0;
+}
+
+.left-auto {
+  bottom: auto;
+}
+
+.right-0 {
+  bottom: 0;
+}
+
+.right-auto {
+  bottom: auto;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2491,6 +2523,30 @@ h6 {
   .xs\:float-right {
     float: right;
   }
+  .xs\:top-0 {
+    top: 0;
+  }
+  .xs\:top-auto {
+    top: auto;
+  }
+  .xs\:bottom-0 {
+    bottom: 0;
+  }
+  .xs\:bottom-auto {
+    bottom: auto;
+  }
+  .xs\:left-0 {
+    bottom: 0;
+  }
+  .xs\:left-auto {
+    bottom: auto;
+  }
+  .xs\:right-0 {
+    bottom: 0;
+  }
+  .xs\:right-auto {
+    bottom: auto;
+  }
   .xs\:text-center {
     text-align: center;
   }
@@ -3297,6 +3353,30 @@ h6 {
   }
   .sm\:float-right {
     float: right;
+  }
+  .sm\:top-0 {
+    top: 0;
+  }
+  .sm\:top-auto {
+    top: auto;
+  }
+  .sm\:bottom-0 {
+    bottom: 0;
+  }
+  .sm\:bottom-auto {
+    bottom: auto;
+  }
+  .sm\:left-0 {
+    bottom: 0;
+  }
+  .sm\:left-auto {
+    bottom: auto;
+  }
+  .sm\:right-0 {
+    bottom: 0;
+  }
+  .sm\:right-auto {
+    bottom: auto;
   }
   .sm\:text-center {
     text-align: center;
@@ -4105,6 +4185,30 @@ h6 {
   .md\:float-right {
     float: right;
   }
+  .md\:top-0 {
+    top: 0;
+  }
+  .md\:top-auto {
+    top: auto;
+  }
+  .md\:bottom-0 {
+    bottom: 0;
+  }
+  .md\:bottom-auto {
+    bottom: auto;
+  }
+  .md\:left-0 {
+    bottom: 0;
+  }
+  .md\:left-auto {
+    bottom: auto;
+  }
+  .md\:right-0 {
+    bottom: 0;
+  }
+  .md\:right-auto {
+    bottom: auto;
+  }
   .md\:text-center {
     text-align: center;
   }
@@ -4911,6 +5015,30 @@ h6 {
   }
   .lg\:float-right {
     float: right;
+  }
+  .lg\:top-0 {
+    top: 0;
+  }
+  .lg\:top-auto {
+    top: auto;
+  }
+  .lg\:bottom-0 {
+    bottom: 0;
+  }
+  .lg\:bottom-auto {
+    bottom: auto;
+  }
+  .lg\:left-0 {
+    bottom: 0;
+  }
+  .lg\:left-auto {
+    bottom: auto;
+  }
+  .lg\:right-0 {
+    bottom: 0;
+  }
+  .lg\:right-auto {
+    bottom: auto;
   }
   .lg\:text-center {
     text-align: center;
@@ -5719,6 +5847,30 @@ h6 {
   .xl\:float-right {
     float: right;
   }
+  .xl\:top-0 {
+    top: 0;
+  }
+  .xl\:top-auto {
+    top: auto;
+  }
+  .xl\:bottom-0 {
+    bottom: 0;
+  }
+  .xl\:bottom-auto {
+    bottom: auto;
+  }
+  .xl\:left-0 {
+    bottom: 0;
+  }
+  .xl\:left-auto {
+    bottom: auto;
+  }
+  .xl\:right-0 {
+    bottom: 0;
+  }
+  .xl\:right-auto {
+    bottom: auto;
+  }
   .xl\:text-center {
     text-align: center;
   }
@@ -6525,6 +6677,30 @@ h6 {
   }
   .xxl\:float-right {
     float: right;
+  }
+  .xxl\:top-0 {
+    top: 0;
+  }
+  .xxl\:top-auto {
+    top: auto;
+  }
+  .xxl\:bottom-0 {
+    bottom: 0;
+  }
+  .xxl\:bottom-auto {
+    bottom: auto;
+  }
+  .xxl\:left-0 {
+    bottom: 0;
+  }
+  .xxl\:left-auto {
+    bottom: auto;
+  }
+  .xxl\:right-0 {
+    bottom: 0;
+  }
+  .xxl\:right-auto {
+    bottom: auto;
   }
   .xxl\:text-center {
     text-align: center;

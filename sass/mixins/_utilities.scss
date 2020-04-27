@@ -9,7 +9,7 @@
     $property: map-get($utility-value, property);
     $values: map-get($utility-value, values);
     @each $key, $value in $values {
-      $class-name: #{$class}-#{$key};
+      $class-name: if($class != null, #{$class}-#{$key}, #{$key});
       @include generate-class($class-name, $breakpoint, $breakpoint-type) {
         #{$property}: $value;
       }

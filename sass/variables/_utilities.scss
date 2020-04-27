@@ -1,2 +1,9 @@
 // merge all utility variables
-$utilities: map-collect($colors, $displays, $positions, $floats, $typographys);
+$utilities: map-collect(
+  $colors,
+  $displays,
+  $positions,
+  $floats,
+  $placements,
+  $typographys
+);
