@@ -1628,6 +1628,18 @@ h6 {
   display: "inline-flex";
 }
 
+.float-none {
+  float: none;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2435,6 +2447,15 @@ h6 {
   .xs\:d-flex {
     display: "inline-flex";
   }
+  .xs\:float-none {
+    float: none;
+  }
+  .xs\:float-left {
+    float: left;
+  }
+  .xs\:float-right {
+    float: right;
+  }
   .xs\:text-center {
     text-align: center;
   }
@@ -3217,6 +3238,15 @@ h6 {
   }
   .sm\:d-flex {
     display: "inline-flex";
+  }
+  .sm\:float-none {
+    float: none;
+  }
+  .sm\:float-left {
+    float: left;
+  }
+  .sm\:float-right {
+    float: right;
   }
   .sm\:text-center {
     text-align: center;
@@ -4001,6 +4031,15 @@ h6 {
   .md\:d-flex {
     display: "inline-flex";
   }
+  .md\:float-none {
+    float: none;
+  }
+  .md\:float-left {
+    float: left;
+  }
+  .md\:float-right {
+    float: right;
+  }
   .md\:text-center {
     text-align: center;
   }
@@ -4783,6 +4822,15 @@ h6 {
   }
   .lg\:d-flex {
     display: "inline-flex";
+  }
+  .lg\:float-none {
+    float: none;
+  }
+  .lg\:float-left {
+    float: left;
+  }
+  .lg\:float-right {
+    float: right;
   }
   .lg\:text-center {
     text-align: center;
@@ -5567,6 +5615,15 @@ h6 {
   .xl\:d-flex {
     display: "inline-flex";
   }
+  .xl\:float-none {
+    float: none;
+  }
+  .xl\:float-left {
+    float: left;
+  }
+  .xl\:float-right {
+    float: right;
+  }
   .xl\:text-center {
     text-align: center;
   }
@@ -6349,6 +6406,15 @@ h6 {
   }
   .xxl\:d-flex {
     display: "inline-flex";
+  }
+  .xxl\:float-none {
+    float: none;
+  }
+  .xxl\:float-left {
+    float: left;
+  }
+  .xxl\:float-right {
+    float: right;
   }
   .xxl\:text-center {
     text-align: center;
