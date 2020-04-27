@@ -1663,6 +1663,25 @@ h6 {
   top: 0;
 }
 
+.absolute-top {
+  position: absolute;
+  top: 0;
+}
+
+.absolute-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.absolute-center {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
 .float-none {
   float: none;
 }
@@ -2541,6 +2560,22 @@ h6 {
     position: sticky;
     top: 0;
   }
+  .xs\:absolute-top {
+    position: absolute;
+    top: 0;
+  }
+  .xs\:absolute-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+  .xs\:absolute-center {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
   .xs\:float-none {
     float: none;
   }
@@ -3383,6 +3418,22 @@ h6 {
   .sm\:sticky-top {
     position: sticky;
     top: 0;
+  }
+  .sm\:absolute-top {
+    position: absolute;
+    top: 0;
+  }
+  .sm\:absolute-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+  .sm\:absolute-center {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
   }
   .sm\:float-none {
     float: none;
@@ -4227,6 +4278,22 @@ h6 {
     position: sticky;
     top: 0;
   }
+  .md\:absolute-top {
+    position: absolute;
+    top: 0;
+  }
+  .md\:absolute-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+  .md\:absolute-center {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
   .md\:float-none {
     float: none;
   }
@@ -5069,6 +5136,22 @@ h6 {
   .lg\:sticky-top {
     position: sticky;
     top: 0;
+  }
+  .lg\:absolute-top {
+    position: absolute;
+    top: 0;
+  }
+  .lg\:absolute-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+  .lg\:absolute-center {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
   }
   .lg\:float-none {
     float: none;
@@ -5913,6 +5996,22 @@ h6 {
     position: sticky;
     top: 0;
   }
+  .xl\:absolute-top {
+    position: absolute;
+    top: 0;
+  }
+  .xl\:absolute-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+  .xl\:absolute-center {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
   .xl\:float-none {
     float: none;
   }
@@ -6755,6 +6854,22 @@ h6 {
   .xxl\:sticky-top {
     position: sticky;
     top: 0;
+  }
+  .xxl\:absolute-top {
+    position: absolute;
+    top: 0;
+  }
+  .xxl\:absolute-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+  .xxl\:absolute-center {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
   }
   .xxl\:float-none {
     float: none;

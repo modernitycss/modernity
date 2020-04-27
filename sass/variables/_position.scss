@@ -34,4 +34,26 @@ $positions: (
       ),
     ),
   ),
+  absolute: (
+    multiple: true,
+    class: absolute,
+    values: (
+      "top": (
+        position: absolute,
+        top: 0,
+      ),
+      "bottom": (
+        position: absolute,
+        bottom: 0,
+      ),
+      "center": (
+        top: 0,
+        bottom: 0,
+        margin: auto,
+        position: absolute,
+        left: 0,
+        right: 0,
+      ),
+    ),
+  ),
 );
