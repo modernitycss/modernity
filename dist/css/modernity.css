@@ -1628,6 +1628,26 @@ h6 {
   display: "inline-flex";
 }
 
+.p-static {
+  position: static;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-sticky {
+  position: sticky;
+}
+
 .float-none {
   float: none;
 }
@@ -2447,6 +2467,21 @@ h6 {
   .xs\:d-flex {
     display: "inline-flex";
   }
+  .xs\:p-static {
+    position: static;
+  }
+  .xs\:p-fixed {
+    position: fixed;
+  }
+  .xs\:p-absolute {
+    position: absolute;
+  }
+  .xs\:p-relative {
+    position: relative;
+  }
+  .xs\:p-sticky {
+    position: sticky;
+  }
   .xs\:float-none {
     float: none;
   }
@@ -3238,6 +3273,21 @@ h6 {
   }
   .sm\:d-flex {
     display: "inline-flex";
+  }
+  .sm\:p-static {
+    position: static;
+  }
+  .sm\:p-fixed {
+    position: fixed;
+  }
+  .sm\:p-absolute {
+    position: absolute;
+  }
+  .sm\:p-relative {
+    position: relative;
+  }
+  .sm\:p-sticky {
+    position: sticky;
   }
   .sm\:float-none {
     float: none;
@@ -4031,6 +4081,21 @@ h6 {
   .md\:d-flex {
     display: "inline-flex";
   }
+  .md\:p-static {
+    position: static;
+  }
+  .md\:p-fixed {
+    position: fixed;
+  }
+  .md\:p-absolute {
+    position: absolute;
+  }
+  .md\:p-relative {
+    position: relative;
+  }
+  .md\:p-sticky {
+    position: sticky;
+  }
   .md\:float-none {
     float: none;
   }
@@ -4822,6 +4887,21 @@ h6 {
   }
   .lg\:d-flex {
     display: "inline-flex";
+  }
+  .lg\:p-static {
+    position: static;
+  }
+  .lg\:p-fixed {
+    position: fixed;
+  }
+  .lg\:p-absolute {
+    position: absolute;
+  }
+  .lg\:p-relative {
+    position: relative;
+  }
+  .lg\:p-sticky {
+    position: sticky;
   }
   .lg\:float-none {
     float: none;
@@ -5615,6 +5695,21 @@ h6 {
   .xl\:d-flex {
     display: "inline-flex";
   }
+  .xl\:p-static {
+    position: static;
+  }
+  .xl\:p-fixed {
+    position: fixed;
+  }
+  .xl\:p-absolute {
+    position: absolute;
+  }
+  .xl\:p-relative {
+    position: relative;
+  }
+  .xl\:p-sticky {
+    position: sticky;
+  }
   .xl\:float-none {
     float: none;
   }
@@ -6406,6 +6501,21 @@ h6 {
   }
   .xxl\:d-flex {
     display: "inline-flex";
+  }
+  .xxl\:p-static {
+    position: static;
+  }
+  .xxl\:p-fixed {
+    position: fixed;
+  }
+  .xxl\:p-absolute {
+    position: absolute;
+  }
+  .xxl\:p-relative {
+    position: relative;
+  }
+  .xxl\:p-sticky {
+    position: sticky;
   }
   .xxl\:float-none {
     float: none;

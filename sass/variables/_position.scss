@@ -1,0 +1,13 @@
+$positions: (
+  position: (
+    property: position,
+    class: p,
+    values: (
+      "static": static,
+      "fixed": fixed,
+      "absolute": absolute,
+      "relative": relative,
+      "sticky": sticky,
+    ),
+  ),
+);
