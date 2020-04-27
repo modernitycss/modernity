@@ -1628,24 +1628,39 @@ h6 {
   display: "inline-flex";
 }
 
-.p-static {
+.static {
   position: static;
 }
 
-.p-fixed {
+.fixed {
   position: fixed;
 }
 
-.p-absolute {
+.absolute {
   position: absolute;
 }
 
-.p-relative {
+.relative {
   position: relative;
 }
 
-.p-sticky {
+.sticky {
   position: sticky;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+.fixed-top {
+  position: sticky;
+  top: 0;
 }
 
 .float-none {
@@ -2499,20 +2514,32 @@ h6 {
   .xs\:d-flex {
     display: "inline-flex";
   }
-  .xs\:p-static {
+  .xs\:static {
     position: static;
   }
-  .xs\:p-fixed {
+  .xs\:fixed {
     position: fixed;
   }
-  .xs\:p-absolute {
+  .xs\:absolute {
     position: absolute;
   }
-  .xs\:p-relative {
+  .xs\:relative {
     position: relative;
   }
-  .xs\:p-sticky {
+  .xs\:sticky {
     position: sticky;
+  }
+  .xs\:fixed-top {
+    position: fixed;
+    top: 0;
+  }
+  .xs\:fixed-bottom {
+    position: fixed;
+    bottom: 0;
+  }
+  .xs\:fixed-top {
+    position: sticky;
+    top: 0;
   }
   .xs\:float-none {
     float: none;
@@ -3330,20 +3357,32 @@ h6 {
   .sm\:d-flex {
     display: "inline-flex";
   }
-  .sm\:p-static {
+  .sm\:static {
     position: static;
   }
-  .sm\:p-fixed {
+  .sm\:fixed {
     position: fixed;
   }
-  .sm\:p-absolute {
+  .sm\:absolute {
     position: absolute;
   }
-  .sm\:p-relative {
+  .sm\:relative {
     position: relative;
   }
-  .sm\:p-sticky {
+  .sm\:sticky {
     position: sticky;
+  }
+  .sm\:fixed-top {
+    position: fixed;
+    top: 0;
+  }
+  .sm\:fixed-bottom {
+    position: fixed;
+    bottom: 0;
+  }
+  .sm\:fixed-top {
+    position: sticky;
+    top: 0;
   }
   .sm\:float-none {
     float: none;
@@ -4161,20 +4200,32 @@ h6 {
   .md\:d-flex {
     display: "inline-flex";
   }
-  .md\:p-static {
+  .md\:static {
     position: static;
   }
-  .md\:p-fixed {
+  .md\:fixed {
     position: fixed;
   }
-  .md\:p-absolute {
+  .md\:absolute {
     position: absolute;
   }
-  .md\:p-relative {
+  .md\:relative {
     position: relative;
   }
-  .md\:p-sticky {
+  .md\:sticky {
     position: sticky;
+  }
+  .md\:fixed-top {
+    position: fixed;
+    top: 0;
+  }
+  .md\:fixed-bottom {
+    position: fixed;
+    bottom: 0;
+  }
+  .md\:fixed-top {
+    position: sticky;
+    top: 0;
   }
   .md\:float-none {
     float: none;
@@ -4992,20 +5043,32 @@ h6 {
   .lg\:d-flex {
     display: "inline-flex";
   }
-  .lg\:p-static {
+  .lg\:static {
     position: static;
   }
-  .lg\:p-fixed {
+  .lg\:fixed {
     position: fixed;
   }
-  .lg\:p-absolute {
+  .lg\:absolute {
     position: absolute;
   }
-  .lg\:p-relative {
+  .lg\:relative {
     position: relative;
   }
-  .lg\:p-sticky {
+  .lg\:sticky {
     position: sticky;
+  }
+  .lg\:fixed-top {
+    position: fixed;
+    top: 0;
+  }
+  .lg\:fixed-bottom {
+    position: fixed;
+    bottom: 0;
+  }
+  .lg\:fixed-top {
+    position: sticky;
+    top: 0;
   }
   .lg\:float-none {
     float: none;
@@ -5823,20 +5886,32 @@ h6 {
   .xl\:d-flex {
     display: "inline-flex";
   }
-  .xl\:p-static {
+  .xl\:static {
     position: static;
   }
-  .xl\:p-fixed {
+  .xl\:fixed {
     position: fixed;
   }
-  .xl\:p-absolute {
+  .xl\:absolute {
     position: absolute;
   }
-  .xl\:p-relative {
+  .xl\:relative {
     position: relative;
   }
-  .xl\:p-sticky {
+  .xl\:sticky {
     position: sticky;
+  }
+  .xl\:fixed-top {
+    position: fixed;
+    top: 0;
+  }
+  .xl\:fixed-bottom {
+    position: fixed;
+    bottom: 0;
+  }
+  .xl\:fixed-top {
+    position: sticky;
+    top: 0;
   }
   .xl\:float-none {
     float: none;
@@ -6654,20 +6729,32 @@ h6 {
   .xxl\:d-flex {
     display: "inline-flex";
   }
-  .xxl\:p-static {
+  .xxl\:static {
     position: static;
   }
-  .xxl\:p-fixed {
+  .xxl\:fixed {
     position: fixed;
   }
-  .xxl\:p-absolute {
+  .xxl\:absolute {
     position: absolute;
   }
-  .xxl\:p-relative {
+  .xxl\:relative {
     position: relative;
   }
-  .xxl\:p-sticky {
+  .xxl\:sticky {
     position: sticky;
+  }
+  .xxl\:fixed-top {
+    position: fixed;
+    top: 0;
+  }
+  .xxl\:fixed-bottom {
+    position: fixed;
+    bottom: 0;
+  }
+  .xxl\:fixed-top {
+    position: sticky;
+    top: 0;
   }
   .xxl\:float-none {
     float: none;

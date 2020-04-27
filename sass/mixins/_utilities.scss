@@ -5,13 +5,23 @@
   $breakpoint-type: null
 ) {
   @each $utility, $utility-value in $utility-map {
+    $multiple: map-get($utility-value, multiple);
     $class: map-get($utility-value, class);
     $property: map-get($utility-value, property);
     $values: map-get($utility-value, values);
     @each $key, $value in $values {
       $class-name: if($class != null, #{$class}-#{$key}, #{$key});
-      @include generate-class($class-name, $breakpoint, $breakpoint-type) {
-        #{$property}: $value;
+
+      @if ($multiple != null and $multiple == true) {
+        @include generate-class($class-name, $breakpoint, $breakpoint-type) {
+          @each $keyproperty, $valueproperty in $value {
+            #{$keyproperty}: $valueproperty;
+          }
+        }
+      } @else {
+        @include generate-class($class-name, $breakpoint, $breakpoint-type) {
+          #{$property}: $value;
+        }
       }
     }
   }

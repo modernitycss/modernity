@@ -1,13 +1,37 @@
 $positions: (
   position: (
     property: position,
-    class: p,
+    class: null,
     values: (
       "static": static,
       "fixed": fixed,
       "absolute": absolute,
       "relative": relative,
       "sticky": sticky,
+    ),
+  ),
+  fixed: (
+    multiple: true,
+    class: fixed,
+    values: (
+      "top": (
+        position: fixed,
+        top: 0,
+      ),
+      "bottom": (
+        position: fixed,
+        bottom: 0,
+      ),
+    ),
+  ),
+  sticky: (
+    multiple: true,
+    class: fixed,
+    values: (
+      "top": (
+        position: sticky,
+        top: 0,
+      ),
     ),
   ),
 );
