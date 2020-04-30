@@ -1,13 +1,10 @@
 // grid here
 .row {
   display: flex;
-  flex: 0 1 auto;
-  flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 auto;
-  width: 100%;
 }
 
+@include generate-default-column();
 @include generate-column();
 
 // generate column for every breakpoint

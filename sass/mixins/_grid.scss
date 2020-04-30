@@ -1,0 +1,43 @@
+@mixin generate-default-column() {
+  $grid-columns: 12;
+
+  %col {
+    position: relative;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  @for $column from 0 through $grid-columns {
+    $class-name: if($column > 0, col-#{$column}, col);
+
+    .#{$class-name} {
+      @extend %col;
+    }
+  }
+
+  @each $breakpoint-type, $breakpoint-value in $breakpoints {
+    @for $column from 0 through $grid-columns {
+      $class-name: if($column > 0, col-#{$column}, col);
+
+      .#{$breakpoint-type}\:#{$class-name} {
+        @extend %col;
+      }
+    }
+  }
+}
+
+@mixin generate-column($breakpoint: false, $breakpoint-type: null) {
+  $grid-columns: 12;
+
+  @for $column from 0 through $grid-columns {
+    $class-name: if($column > 0, col-#{$column}, col);
+
+    @include generate-class($class-name, $breakpoint, $breakpoint-type) {
+      flex: 0 0 auto;
+      flex-grow: if($column > 0, null, 1);
+      flex-basis: if($column > 0, 100% / $grid-columns * $column, 0%);
+      max-width: if($column > 0, 100% / $grid-columns * $column, 100%);
+    }
+  }
+}
