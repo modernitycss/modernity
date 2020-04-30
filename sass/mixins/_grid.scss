@@ -4,8 +4,8 @@
   %col {
     position: relative;
     width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
   }
 
   @for $column from 0 through $grid-columns {
