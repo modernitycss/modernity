@@ -1,0 +1,19 @@
+$lists: (
+  list-type: (
+    property: list-style-type,
+    class: li,
+    values: (
+      "none": none,
+      "disc": disc,
+      "decimal": decimal,
+    ),
+  ),
+  list-position: (
+    property: list-style-position,
+    class: li,
+    values: (
+      "inside": inside,
+      "outside": outside,
+    ),
+  ),
+);

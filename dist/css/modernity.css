@@ -2266,6 +2266,26 @@ h6 {
   font-size: 4rem;
 }
 
+.li-none {
+  list-style-type: none;
+}
+
+.li-disc {
+  list-style-type: disc;
+}
+
+.li-decimal {
+  list-style-type: decimal;
+}
+
+.li-inside {
+  list-style-position: inside;
+}
+
+.li-outside {
+  list-style-position: outside;
+}
+
 .p-0 {
   padding: 0;
 }
@@ -3821,6 +3841,21 @@ h6 {
   .xs\:f-64 {
     font-size: 4rem;
   }
+  .xs\:li-none {
+    list-style-type: none;
+  }
+  .xs\:li-disc {
+    list-style-type: disc;
+  }
+  .xs\:li-decimal {
+    list-style-type: decimal;
+  }
+  .xs\:li-inside {
+    list-style-position: inside;
+  }
+  .xs\:li-outside {
+    list-style-position: outside;
+  }
   .xs\:p-0 {
     padding: 0;
   }
@@ -5214,6 +5249,21 @@ h6 {
   }
   .sm\:f-64 {
     font-size: 4rem;
+  }
+  .sm\:li-none {
+    list-style-type: none;
+  }
+  .sm\:li-disc {
+    list-style-type: disc;
+  }
+  .sm\:li-decimal {
+    list-style-type: decimal;
+  }
+  .sm\:li-inside {
+    list-style-position: inside;
+  }
+  .sm\:li-outside {
+    list-style-position: outside;
   }
   .sm\:p-0 {
     padding: 0;
@@ -6609,6 +6659,21 @@ h6 {
   .md\:f-64 {
     font-size: 4rem;
   }
+  .md\:li-none {
+    list-style-type: none;
+  }
+  .md\:li-disc {
+    list-style-type: disc;
+  }
+  .md\:li-decimal {
+    list-style-type: decimal;
+  }
+  .md\:li-inside {
+    list-style-position: inside;
+  }
+  .md\:li-outside {
+    list-style-position: outside;
+  }
   .md\:p-0 {
     padding: 0;
   }
@@ -8002,6 +8067,21 @@ h6 {
   }
   .lg\:f-64 {
     font-size: 4rem;
+  }
+  .lg\:li-none {
+    list-style-type: none;
+  }
+  .lg\:li-disc {
+    list-style-type: disc;
+  }
+  .lg\:li-decimal {
+    list-style-type: decimal;
+  }
+  .lg\:li-inside {
+    list-style-position: inside;
+  }
+  .lg\:li-outside {
+    list-style-position: outside;
   }
   .lg\:p-0 {
     padding: 0;
@@ -9397,6 +9477,21 @@ h6 {
   .xl\:f-64 {
     font-size: 4rem;
   }
+  .xl\:li-none {
+    list-style-type: none;
+  }
+  .xl\:li-disc {
+    list-style-type: disc;
+  }
+  .xl\:li-decimal {
+    list-style-type: decimal;
+  }
+  .xl\:li-inside {
+    list-style-position: inside;
+  }
+  .xl\:li-outside {
+    list-style-position: outside;
+  }
   .xl\:p-0 {
     padding: 0;
   }
@@ -10790,6 +10885,21 @@ h6 {
   }
   .xxl\:f-64 {
     font-size: 4rem;
+  }
+  .xxl\:li-none {
+    list-style-type: none;
+  }
+  .xxl\:li-disc {
+    list-style-type: disc;
+  }
+  .xxl\:li-decimal {
+    list-style-type: decimal;
+  }
+  .xxl\:li-inside {
+    list-style-position: inside;
+  }
+  .xxl\:li-outside {
+    list-style-position: outside;
   }
   .xxl\:p-0 {
     padding: 0;
