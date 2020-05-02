@@ -1,0 +1,16 @@
+$visibility: (
+  visible: (
+    property: visibility,
+    class: visible,
+    values: (
+      "": visible,
+    ),
+  ),
+  invisible: (
+    property: visibility,
+    class: invisible,
+    values: (
+      "": hidden,
+    ),
+  ),
+);

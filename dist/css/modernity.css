@@ -2956,6 +2956,14 @@ h6 {
   margin-bottom: auto;
 }
 
+.visible- {
+  visibility: visible;
+}
+
+.invisible- {
+  visibility: hidden;
+}
+
 @media (max-width: 575px) {
   .xs\:bg-transparent {
     background-color: transparent;
@@ -4341,6 +4349,12 @@ h6 {
   .xs\:my-auto {
     margin-top: auto;
     margin-bottom: auto;
+  }
+  .xs\:visible- {
+    visibility: visible;
+  }
+  .xs\:invisible- {
+    visibility: hidden;
   }
 }
 
@@ -5730,6 +5744,12 @@ h6 {
     margin-top: auto;
     margin-bottom: auto;
   }
+  .sm\:visible- {
+    visibility: visible;
+  }
+  .sm\:invisible- {
+    visibility: hidden;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -7117,6 +7137,12 @@ h6 {
   .md\:my-auto {
     margin-top: auto;
     margin-bottom: auto;
+  }
+  .md\:visible- {
+    visibility: visible;
+  }
+  .md\:invisible- {
+    visibility: hidden;
   }
 }
 
@@ -8506,6 +8532,12 @@ h6 {
     margin-top: auto;
     margin-bottom: auto;
   }
+  .lg\:visible- {
+    visibility: visible;
+  }
+  .lg\:invisible- {
+    visibility: hidden;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -9894,6 +9926,12 @@ h6 {
     margin-top: auto;
     margin-bottom: auto;
   }
+  .xl\:visible- {
+    visibility: visible;
+  }
+  .xl\:invisible- {
+    visibility: hidden;
+  }
 }
 
 @media (min-width: 1400) {
@@ -11281,6 +11319,12 @@ h6 {
   .xxl\:my-auto {
     margin-top: auto;
     margin-bottom: auto;
+  }
+  .xxl\:visible- {
+    visibility: visible;
+  }
+  .xxl\:invisible- {
+    visibility: hidden;
   }
 }
 
