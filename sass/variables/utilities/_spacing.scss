@@ -186,3 +186,192 @@ $paddings: (
     ),
   ),
 );
+
+// margins
+$margins: (
+  margin: (
+    property: margin,
+    class: m,
+    values: (
+      "0": 0,
+      "1": 0.25rem,
+      "2": 0.5rem,
+      "3": 0.75rem,
+      "4": 1rem,
+      "5": 1.25rem,
+      "6": 1.5rem,
+      "7": 2rem,
+      "8": 2.5rem,
+      "9": 3rem,
+      "10": 4rem,
+    ),
+  ),
+  margin-top: (
+    property: margin-top,
+    class: mt,
+    values: (
+      "0": 0,
+      "1": 0.25rem,
+      "2": 0.5rem,
+      "3": 0.75rem,
+      "4": 1rem,
+      "5": 1.25rem,
+      "6": 1.5rem,
+      "7": 2rem,
+      "8": 2.5rem,
+      "9": 3rem,
+      "10": 4rem,
+    ),
+  ),
+  margin-bottom: (
+    property: margin-bottom,
+    class: mb,
+    values: (
+      "0": 0,
+      "1": 0.25rem,
+      "2": 0.5rem,
+      "3": 0.75rem,
+      "4": 1rem,
+      "5": 1.25rem,
+      "6": 1.5rem,
+      "7": 2rem,
+      "8": 2.5rem,
+      "9": 3rem,
+      "10": 4rem,
+    ),
+  ),
+  margin-left: (
+    property: padding-left,
+    class: ml,
+    values: (
+      "0": 0,
+      "1": 0.25rem,
+      "2": 0.5rem,
+      "3": 0.75rem,
+      "4": 1rem,
+      "5": 1.25rem,
+      "6": 1.5rem,
+      "7": 2rem,
+      "8": 2.5rem,
+      "9": 3rem,
+      "10": 4rem,
+    ),
+  ),
+  margin-right: (
+    property: margin-right,
+    class: mr,
+    values: (
+      "0": 0,
+      "1": 0.25rem,
+      "2": 0.5rem,
+      "3": 0.75rem,
+      "4": 1rem,
+      "5": 1.25rem,
+      "6": 1.5rem,
+      "7": 2rem,
+      "8": 2.5rem,
+      "9": 3rem,
+      "10": 4rem,
+    ),
+  ),
+  margin-x: (
+    multiple: true,
+    class: mx,
+    values: (
+      "0": (
+        margin-left: 0,
+        margin-right: 0,
+      ),
+      "1": (
+        margin-left: 0.25rem,
+        margin-right: 0.25rem,
+      ),
+      "2": (
+        margin-left: 0.5rem,
+        margin-right: 0.5rem,
+      ),
+      "3": (
+        margin-left: 0.75rem,
+        margin-right: 0.75rem,
+      ),
+      "4": (
+        margin-left: 1rem,
+        margin-right: 1rem,
+      ),
+      "5": (
+        margin-left: 1.25rem,
+        margin-right: 1.25rem,
+      ),
+      "6": (
+        margin-left: 1.5rem,
+        margin-right: 1.5rem,
+      ),
+      "7": (
+        margin-left: 2rem,
+        margin-right: 2rem,
+      ),
+      "8": (
+        margin-left: 2.5rem,
+        margin-right: 2.5rem,
+      ),
+      "9": (
+        margin-left: 3rem,
+        margin-right: 3rem,
+      ),
+      "10": (
+        margin-left: 4rem,
+        margin-right: 4rem,
+      ),
+    ),
+  ),
+  margin-y: (
+    multiple: true,
+    class: my,
+    values: (
+      "0": (
+        margin-top: 0,
+        margin-bottom: 0,
+      ),
+      "1": (
+        margin-top: 0.25rem,
+        margin-bottom: 0.25rem,
+      ),
+      "2": (
+        margin-top: 0.5rem,
+        margin-bottom: 0.5rem,
+      ),
+      "3": (
+        margin-top: 0.75rem,
+        margin-bottom: 0.75rem,
+      ),
+      "4": (
+        margin-top: 1rem,
+        margin-bottom: 1rem,
+      ),
+      "5": (
+        margin-top: 1.25rem,
+        margin-bottom: 1.25rem,
+      ),
+      "6": (
+        margin-top: 1.5rem,
+        margin-bottom: 1.5rem,
+      ),
+      "7": (
+        margin-top: 2rem,
+        margin-bottom: 2rem,
+      ),
+      "8": (
+        margin-top: 2.5rem,
+        margin-bottom: 2.5rem,
+      ),
+      "9": (
+        margin-top: 3rem,
+        margin-bottom: 3rem,
+      ),
+      "10": (
+        margin-top: 4rem,
+        margin-bottom: 4rem,
+      ),
+    ),
+  ),
+);
