@@ -204,6 +204,7 @@ $margins: (
       "8": 2.5rem,
       "9": 3rem,
       "10": 4rem,
+      "auto": auto,
     ),
   ),
   margin-top: (
@@ -221,6 +222,7 @@ $margins: (
       "8": 2.5rem,
       "9": 3rem,
       "10": 4rem,
+      "auto": auto,
     ),
   ),
   margin-bottom: (
@@ -238,6 +240,7 @@ $margins: (
       "8": 2.5rem,
       "9": 3rem,
       "10": 4rem,
+      "auto": auto,
     ),
   ),
   margin-left: (
@@ -255,6 +258,7 @@ $margins: (
       "8": 2.5rem,
       "9": 3rem,
       "10": 4rem,
+      "auto": auto,
     ),
   ),
   margin-right: (
@@ -272,6 +276,7 @@ $margins: (
       "8": 2.5rem,
       "9": 3rem,
       "10": 4rem,
+      "auto": auto,
     ),
   ),
   margin-x: (
@@ -322,6 +327,10 @@ $margins: (
         margin-left: 4rem,
         margin-right: 4rem,
       ),
+      "auto": (
+        margin-left: auto,
+        margin-right: auto,
+      ),
     ),
   ),
   margin-y: (
@@ -371,6 +380,10 @@ $margins: (
       "10": (
         margin-top: 4rem,
         margin-bottom: 4rem,
+      ),
+      "auto": (
+        margin-top: auto,
+        margin-bottom: auto,
       ),
     ),
   ),
