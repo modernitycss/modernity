@@ -2956,11 +2956,11 @@ h6 {
   margin-bottom: auto;
 }
 
-.visible- {
+.visible {
   visibility: visible;
 }
 
-.invisible- {
+.invisible {
   visibility: hidden;
 }
 
@@ -4350,10 +4350,10 @@ h6 {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .xs\:visible- {
+  .xs\:visible {
     visibility: visible;
   }
-  .xs\:invisible- {
+  .xs\:invisible {
     visibility: hidden;
   }
 }
@@ -5744,10 +5744,10 @@ h6 {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .sm\:visible- {
+  .sm\:visible {
     visibility: visible;
   }
-  .sm\:invisible- {
+  .sm\:invisible {
     visibility: hidden;
   }
 }
@@ -7138,10 +7138,10 @@ h6 {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .md\:visible- {
+  .md\:visible {
     visibility: visible;
   }
-  .md\:invisible- {
+  .md\:invisible {
     visibility: hidden;
   }
 }
@@ -8532,10 +8532,10 @@ h6 {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .lg\:visible- {
+  .lg\:visible {
     visibility: visible;
   }
-  .lg\:invisible- {
+  .lg\:invisible {
     visibility: hidden;
   }
 }
@@ -9926,10 +9926,10 @@ h6 {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .xl\:visible- {
+  .xl\:visible {
     visibility: visible;
   }
-  .xl\:invisible- {
+  .xl\:invisible {
     visibility: hidden;
   }
 }
@@ -11320,10 +11320,10 @@ h6 {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .xxl\:visible- {
+  .xxl\:visible {
     visibility: visible;
   }
-  .xxl\:invisible- {
+  .xxl\:invisible {
     visibility: hidden;
   }
 }
