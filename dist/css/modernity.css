@@ -1,5 +1,5 @@
 /*!
- * Modernity v0.1.2 (https://github.com/AsyrafHussin/modernity)
+ * Modernity v0.1.2  (https://github.com/AsyrafHussin/modernity)
  * Copyright 2020 Asyraf Hussin
  * Licensed under MIT (https://github.com/AsyrafHussin/modernity/blob/master/LICENSE)
  */
@@ -2664,6 +2664,10 @@ h6 {
   margin: auto;
 }
 
+.m-center {
+  margin: 0 auto;
+}
+
 .mt-0 {
   margin-top: 0;
 }
@@ -4145,6 +4149,9 @@ h6 {
   .xs\:m-auto {
     margin: auto;
   }
+  .xs\:m-center {
+    margin: 0 auto;
+  }
   .xs\:mt-0 {
     margin-top: 0;
   }
@@ -5553,6 +5560,9 @@ h6 {
   }
   .sm\:m-auto {
     margin: auto;
+  }
+  .sm\:m-center {
+    margin: 0 auto;
   }
   .sm\:mt-0 {
     margin-top: 0;
@@ -6963,6 +6973,9 @@ h6 {
   .md\:m-auto {
     margin: auto;
   }
+  .md\:m-center {
+    margin: 0 auto;
+  }
   .md\:mt-0 {
     margin-top: 0;
   }
@@ -8371,6 +8384,9 @@ h6 {
   }
   .lg\:m-auto {
     margin: auto;
+  }
+  .lg\:m-center {
+    margin: 0 auto;
   }
   .lg\:mt-0 {
     margin-top: 0;
@@ -9781,6 +9797,9 @@ h6 {
   .xl\:m-auto {
     margin: auto;
   }
+  .xl\:m-center {
+    margin: 0 auto;
+  }
   .xl\:mt-0 {
     margin-top: 0;
   }
@@ -11189,6 +11208,9 @@ h6 {
   }
   .xxl\:m-auto {
     margin: auto;
+  }
+  .xxl\:m-center {
+    margin: 0 auto;
   }
   .xxl\:mt-0 {
     margin-top: 0;
